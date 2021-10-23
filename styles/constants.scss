@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap');
+
+$mainFont: 'Raleway', sans-serif;
+$secondaryFont:'Raleway', sans-serif;
+
+$lightRed: #f9313e;
+$darkRed: #AF1B26;
+$white: #f3f3f3;
+$grey: #2b2d42;
+$lightGrey:  #f6f6f6;
+$black: #01111f;
+
+
+
+$mobile: "only screen and (max-width : 800px)";
+$desktop: "only screen and (min-width : 801px)";
+
+.master_container{
+   // background-color:$darkRed;
+   // background-image:url('/background.png');
+   height:100vh;
+   width:100%;
+   padding:2rem;
+
+}
+
+
+
+.button_primary{
+   align-content: center;
+   align-items:left;
+   color: $black;
+   font-size:1.3rem;
+
+   justify-self: left;
+   justify-items: left;
+   text-align:left;
+   // padding:0.7rem;
+   margin:0 auto;
+   font-family: $mainFont;
+   font-weight: bold;
+   // font-weight: 400;
+   margin:0.5rem 0;
+   position:relative;
+   z-index:102;
+
+   @media #{$desktop}{
+     font-size:1.6rem;
+
+   }
+}
+
+
+    .button_primary:after {
+        position: absolute;
+        content: '';
+        height: 8px;
+        bottom: 0px; 
+        margin: 0 ;
+      //   padding:0.7rem;
+		 left:0;
+      //   right: 0;
+		  width: 70px;
+		  background:$darkRed;
+        z-index:101;
+		  
+		  /* optional animation */
+		  -o-transition:.5s;
+  		  -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        transition:.5s;
+    }
+	 
+
+	 /* optional hover classes used with anmiation */
+	  .button_primary:hover:after {
+		  width: 50%;
+		  background: $lightRed;
+    }

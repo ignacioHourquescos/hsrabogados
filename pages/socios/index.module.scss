@@ -1,0 +1,19 @@
+@import "../../styles/constants.scss";
+
+.container{
+   @extend .master_container;
+
+   background-image:none;
+   background-color: $white;
+   width:100%;
+   z-index:1;
+   display:flex;
+   justify-content: center;
+   flex-direction: column;
+   color:white;
+   height:100%;
+
+
+
+}
+

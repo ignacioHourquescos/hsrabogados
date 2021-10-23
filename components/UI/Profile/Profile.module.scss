@@ -1,0 +1,52 @@
+@import "../../../styles/constants.scss";
+
+.container {
+   margin: 3rem 0%;
+   margin-bottom: 0;
+   display: flex;
+   flex-direction: row;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+   .image {
+      width: 100%;
+   }
+
+   .partner_name_container {
+      background-color: $black;
+      transform: translateY(-60px);
+      padding: 1rem;
+      width:90%;
+
+      .partner_name {
+         font-family: $mainFont;
+         font-size: 0.8rem;
+         margin-top: 0.5rem;
+      }
+
+      .partner_lastname {
+         font-family: $mainFont;
+         font-size: 1.3rem;
+      }
+   }
+
+   .partner_bio {
+      width: 90%;
+      color: $black;
+      border:1px solid #011627af;
+      transform: translateY(-60px);
+      padding:1rem;
+      font-family: $secondaryFont;
+   }
+
+   .button_secondary {
+      background-color: transparent;
+      color: $white;
+      border: 2px solid white;
+      padding: 1rem;
+      margin-top:1rem;
+      width:100%;
+   }
+
+}

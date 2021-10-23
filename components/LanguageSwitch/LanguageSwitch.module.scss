@@ -1,0 +1,27 @@
+@import "../../styles/constants.scss";
+
+.container{
+
+   button{
+      position:fixed;
+      right: 0.5rem;
+      top:5rem;
+      color: white;
+      transform: rotate(270deg);
+      z-index:3000;
+      background-color: transparent;
+      border:0;  text-decoration: none;
+      align-self: flex-end;
+      // border:1px solid white;
+      display: inline;
+      background-color: rgba(0, 0, 0, 0.336);
+      
+      @media #{$desktop} {
+         transform: rotate(0deg);
+      
+         right: 2rem;
+         top:1rem;
+        }
+   }
+
+}

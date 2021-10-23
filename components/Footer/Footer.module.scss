@@ -1,0 +1,67 @@
+@import "../../styles/constants.scss";
+
+
+.container {
+   @extend .master_container;
+   display:flex;
+   flex-direction:column;
+   align-items: center;
+   align-content: center;
+   justify-content: flex-start;
+   justify-items: flex-start;
+   background-image: none;
+   background-color: black;
+   color:white;
+   height: 100%;
+   z-index:104;
+   
+
+
+
+
+   :hover{
+      // border-bottom: 1px solid $gold;
+      cursor:pointer;
+   } 
+
+   .link{
+      text-decoration: inherit;
+      background-color: transparent; 
+      
+      font-size:1.1rem;
+      padding:0 0.5rem;
+      border-bottom: 10px solid transparent;
+      color:white;
+      text-decoration: none;
+      color: inherit;
+      a{
+         color:$mainFont;
+         font-size: 1.1rem;
+         text-decoration:none;
+         padding:0 1rem;
+         margin:0;
+         padding:0;
+         color:white;
+         font-weight: 200;
+     }
+
+
+      z-index:10;
+      :hover{
+         border-bottom: 4px solid $darkRed;
+
+      }
+   }
+}
+
+.footer_social{
+   fill: $white;
+   margin: 1em;
+   
+}
+
+.footer_social_container{
+   display: flex;
+   flex-direction: row;
+
+}

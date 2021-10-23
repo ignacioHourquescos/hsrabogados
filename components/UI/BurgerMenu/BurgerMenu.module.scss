@@ -1,0 +1,33 @@
+
+@import "../../../styles/constants.scss";
+
+
+.toolbar {
+   position:fixed;
+   padding-top: 1.5rem;
+   display:flex;
+   background-color: transparent;
+   top:0;
+   right:0.7rem;   z-index:1000;
+
+          
+}
+   
+   .burgerIcon {
+       width: 45px;
+       height:90x;
+       z-index:1000;
+       padding:0;
+       text-decoration:none;
+       background-color: transparent;
+       border: none;
+
+        @media #{$desktop} {
+         display:none;
+         margin-right: 10%;
+         padding:0 10%;
+      }
+
+   }
+
+

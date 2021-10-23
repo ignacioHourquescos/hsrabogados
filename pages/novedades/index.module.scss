@@ -1,0 +1,60 @@
+@import "../../styles/constants.scss";
+
+.container{
+   @extend .master_container;
+
+   background-image:none;
+   // background-color: $darkRed;
+   width:100%;
+   z-index:1;
+   display:flex;
+   justify-content: center;
+   flex-direction: column;
+   color:$black;
+   height:100%;
+   background-color: $white;
+
+   .intro{
+      margin-bottom:2rem;
+   }
+
+   @media #{$desktop} {
+      padding:2rem 10%;
+      min-height: 100vh;
+      justify-content: flex-start;
+    }
+
+
+   .main{
+      color:$black;
+      font-size: 1.5rem;
+      font-weight: bold;
+   }
+   
+   .date{
+      font-size: 0.8rem;
+      color:$black;
+      margin-bottom:2rem;
+   }
+   .autor{
+      color:$black;
+      font-size:1.3rem;
+
+   }
+
+   .brief{
+      color:$black;
+      font-size: 1.1rem;
+      margin-bottom:2rem;
+      font-weight: 400;
+   }
+
+   .content{
+ 
+      color:$black;
+      font-weight: 300;
+   }
+}
+
+
+

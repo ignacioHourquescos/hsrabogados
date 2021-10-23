@@ -1,0 +1,85 @@
+
+==>MAQUETEADO
+⚪Armar Footer
+🟢Terminar Carrousel
+⚪Poner diferentes imagenes para el componente HeaderSub
+🟢Armar Peek de Contacto en Home
+🟢Armar Footer
+
+
+==>FUNCIONAL
+🟢Terminar de aramr y darle estilo a Novedades/[slug].js
+🟢hacer que funcione ING ESP en Novedades
+🟢Armar NavBar
+⚪ver brochure de descargar en PDF. contenful?
+⚪Armar formulario de Contacto y conectarlo con la app de formularios para que se renvie
+
+
+==>CHEQUEO RESPONSIVE
+🟢HOME
+⚪NOVEDADES
+🟢NOVEDADES DETALLE
+⚪SOCIOS
+⚪SOCIOS DETALLE
+⚪AREAS DE PRACTICA
+⚪CONTACTO
+
+
+
+==>CHEQUEO SEO
+⚪componente HEAD en todas las paginas, con imagen, titulo, desc, etc.
+⚪todas las imagnees tienen valor alt="..."
+⚪limpiar todos los console.logs que hay dando vuelta
+⚪Correr lighthouse y aplicar mejoras de rendimiento
+
+
+🟡
+🟠
+🟢
+
+
+
+==> COMENTARIOS BETA
+🟢. Como regla general, vemos muy oscuro el sitio y no nos gusta la cominación de negro o azul oscuro 
+con rojo. Nos gustaría que prime el blanco en los fondos, con letras en negro y los detalles en el rojo 
+del logo
+ok captura d epantalla
+
+🟢 2. Como criterio general, no nos gusta la fuente de letra utilizada. Fijense en los sitios de 
+CeroliniFerrari o Martinez de Hoz Rueda y pongamos alguna de esas.
+Raleway Thin
+OK- cpatura de pantalla
+
+3. En cuanto a las secciones. Mas allá del Home Principal, creemos conveniente tener 
+las siguientes secciones: 1) La Firma (Institucional): Solo tendría una frase corta. 
+No incluiríamos ni visión ni misión de la firma; 2) Socios; 3) Areas de Práctica; 4) Carrera: 
+5) Novedades; 6) Contacto. Como verán decidimos separar las secciones socios de areas de práctica
+ y agregamos la sección Carrera. Esta última, tendría que tener un simple formulario para que 
+ envíen el CV y un zaraza sobre carrera profesional en el estudio que le pasaríamos nosotros
+OK- cpatura de pantalla
+Firma institucional
+
+
+🟢4. Respecto del Home, entendemos que las letras del logo del estudio sobre el video siguen 
+sin verse lo suficiente como queres (sobre todo en la versión PC). Se nos ocurre que quizás 
+podría utilizarse la negrita
+
+🟢 A su vez, en el HOME debiera eliminarse la parte de "Clientes". Con "Referencias" 
+(por favor modificar por "Testimonios") nos es suficiente para resaltar a nuestros clientes.
+
+5. Los headers de cada sección debieran ser mas "finitos" y en rojo o con algúna 
+foto de fondo que le estaremos pasando. Antes habría que retocarlas para que queden menos artesanales!
+
+🟡.6 En la sección "Socios", también poner fondo blanco con el recuadro detras de 
+cada socio en rojo. Eliminar el "mas detalle" (se ampliaria la info al hacer click en cada 
+foto de socio). A su vez, en la versión web nos gustaría que un socio aparezca al lado del otro 
+(y no uno arriba de otro).
+
+
+HOME
+🟡HEADER - cambiar felacj al medioa
+🟡ABOUT  ha
+
+
+
+instagram de HeaderSub

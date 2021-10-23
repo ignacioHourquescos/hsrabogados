@@ -1,0 +1,148 @@
+ @import "../../../styles/constants.scss";
+
+ .container {
+    height: 47vh;
+    border: 1px solid $black;
+    width: 90%;
+    margin:0 5%;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    justify-items: center;
+
+     @media #{$desktop} {
+       width: 20%;
+       margin: 3%;
+       height: 45vh;
+    }
+
+     .news_bookmark {
+       position: absolute;
+       top: 0px;
+       left: 0px;
+       background-color: $darkRed;
+       width: 27%;
+       height: 2vh;
+    }
+
+    .news_title {
+       width: 25%;
+       // transform: rotate(270deg);
+       color:$black;
+       font-weight:bold;
+       writing-mode: vertical-rl;
+       transform: rotate(180deg);
+       position: absolute;
+       top: 2rem;
+       left: 8%;
+       font-family: $mainFont;
+       font-size: 1.3rem;
+       text-transform: uppercase;
+
+       @media #{$desktop} {
+          font-size: 1rem;
+       }
+    }
+
+   .news_content {
+      width: 60%;
+      font-family: $secondaryFont;
+      font-size: 0.9rem;
+      margin-left: 34%;
+      position: absolute;
+      top: 2rem;
+      color:$black;
+      right: 1.5rem;
+
+      @media #{$desktop} {
+         font-size: 1rem;
+      }
+   }
+
+   .news_detail {
+      position: absolute;
+      bottom: 1rem;
+      right: 1rem;
+      color: $black;
+      font-weight: 400;
+      padding: 0.2rem;
+   }
+}
+
+
+//CARD FONDO BLACO VETIACL ROJO
+// @import "../../../styles/constants.scss";
+
+// .container {
+//    height: 47vh;
+//    border: 1px solid $lightRed;
+
+//    width: 100%;
+//    margin-bottom: 2rem;
+//    display: flex;
+//    flex-direction: row;
+//    position: relative;
+//    justify-content: center;
+//    justify-items: center;
+
+//    @media #{$desktop} {
+//       width: 30%;
+//       margin: 3%;
+//       height: 45vh;
+//    }
+
+//    .news_bookmark {
+//       position: absolute;
+//       top: 0px;
+//       left: -1.5px;
+//       background-color: $darkRed;
+//       width: 23%;
+//       height: 100%;
+//    }
+
+//    .news_title {
+//       width: 25%;
+//       // transform: rotate(270deg);   
+//       writing-mode: vertical-rl;
+//       transform: rotate(180deg);
+//       position: absolute;
+//       color:$black;
+//       top: 2rem;
+//       left: 7%;
+//       color:$white;
+//       font-family: $mainFont;
+//       font-size: 1.3rem;
+//       text-transform: uppercase;
+
+//       @media #{$desktop} {
+//          font-size: 1rem;
+//       }
+//    }
+
+//    .news_content {
+//       width: 65%;
+//       font-family: $secondaryFont;
+//       font-size: 0.9rem;
+//       margin-left: 30%;
+//       position: absolute;
+//       top: 2rem;
+//       color: $black;
+//       right: 1.5rem;
+
+//       @media #{$desktop} {
+//          font-size: 0.8rem;
+//       }
+//    }
+
+//    .news_detail {
+//       position: absolute;
+//       color:$black;
+//       bottom: 1rem;
+//       right: 1rem;
+//       color: $black;
+//       font-weight: 400;
+//       padding: 0.2rem;
+//    }
+// }

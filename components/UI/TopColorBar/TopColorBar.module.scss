@@ -1,0 +1,61 @@
+@import "../../../styles/constants.scss";
+
+.container{ 
+   width:100%;
+   padding:2rem; 
+   color:white;
+   margin-bottom:2rem;
+   right:0;
+   position:fixed;
+   padding-right:7rem;
+   display:flex;
+   flex-direction: row;
+   z-index:103;
+   justify-content: flex-end;
+   align-content: flex-end;
+   align-items:baseline;
+
+   :hover{
+      // border-bottom: 1px solid $gold;
+      cursor:pointer;
+   } 
+
+   .link{
+      background-color: transparent; 
+      margin-left:2rem;
+      font-size:1.2rem;
+      padding:0 0.5rem;
+      border-bottom: 1px solid transparent;
+      z-index:10;
+
+   }
+
+   
+   .back_to_home{
+      position:fixed;
+      top:1.1rem;
+      left:1.5rem;
+      height:50px;
+      display:flex;
+      flex-direction: row;
+      z-index:105;
+      @media #{$desktop} {
+         padding: 0 10%;
+      
+  
+       }
+
+      .minilogo_names{
+         font-family: $mainFont;
+         font-size:0.5rem;
+         margin-left:0.5rem;
+         span{
+            font-weight: bold;
+         }
+      }
+   }
+
+
+
+}
+
