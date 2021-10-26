@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap");
+.master_container {
+  height: 100vh;
+  width: 100%;
+  padding: 2rem;
+}
+
+.button_primary {
+  align-content: center;
+  align-items: left;
+  color: #01111f;
+  font-size: 1.3rem;
+  justify-self: left;
+  justify-items: left;
+  text-align: left;
+  margin: 0 auto;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  margin: 0.5rem 0;
+  position: relative;
+  z-index: 102;
+}
+@media only screen and (min-width : 801px) {
+  .button_primary {
+    font-size: 1.6rem;
+  }
+}
+
+.button_primary:after {
+  position: absolute;
+  content: "";
+  height: 8px;
+  bottom: 0px;
+  margin: 0;
+  left: 0;
+  width: 70px;
+  background: #AF1B26;
+  z-index: 101;
+  /* optional animation */
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* optional hover classes used with anmiation */
+.button_primary:hover:after {
+  width: 50%;
+  background: #f9313e;
+}
+
+.container {
+  height: 47vh;
+  border: 1px solid #01111f;
+  width: 90%;
+  margin: 0 5%;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: center;
+  justify-items: center;
+}
+@media only screen and (min-width : 801px) {
+  .container {
+    width: 35%;
+    margin: 3%;
+    height: 45vh;
+  }
+}
+.container .news_bookmark {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #AF1B26;
+  width: 27%;
+  height: 2vh;
+}
+.container .news_title {
+  width: 25%;
+  color: #01111f;
+  font-weight: bold;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  position: absolute;
+  top: 2rem;
+  left: 8%;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+@media only screen and (min-width : 801px) {
+  .container .news_title {
+    font-size: 1rem;
+  }
+}
+.container .news_content {
+  width: 60%;
+  font-family: "Raleway", sans-serif;
+  font-size: 0.9rem;
+  margin-left: 34%;
+  position: absolute;
+  top: 2rem;
+  color: #01111f;
+  right: 1.5rem;
+}
+@media only screen and (min-width : 801px) {
+  .container .news_content {
+    font-size: 1rem;
+  }
+}
+.container .news_detail {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  color: #01111f;
+  font-weight: 400;
+  padding: 0.2rem;
+  z-index: 205;
+}
+.container .news_detail :hover {
+  cursor: pointer;
+}

@@ -30,20 +30,20 @@ const ContactForm = () => {
 		<div className={s.general_container}>
 
 			<div className={s.title_container}>
-         <h3 className={s.punch_line}>Escribinos tu consulta</h3>
+         <h3 className={s.punch_line}>{lang=="ESP"?"Escribinos tu consulta":"Get in touch"}</h3>
 			</div>
 			<div className={s.master_container}>
          {
             displayInputs
             ?
             <form className={s.form} ref={form} onSubmit={sendEmail}>
-            <label>Nombre</label>
+            <label>{lang=="ESP"?"Nombre":"Name"}</label>
             <input className={s.campo} type="text" name="user_name" />
             <label>Email</label>
             <input className={s.campo} type="email" name="user_email" />
-            <label>Mensaje</label>
+            <label>{lang=="ESP"?"Mensaje":"Message"}</label>
             <textarea className={s.campo2} name="message" />
-            <input className={s.enviar} type="submit" value="Send" />
+            <input className={s.enviar} type="submit" value={lang=="ESP"?"Enviar":"Send"} />
          </form>
          :
             <div className={s.sent_message}>
