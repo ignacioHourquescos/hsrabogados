@@ -1,6 +1,5 @@
 import s from "./About.module.scss";
 import SectionTitle from "../UI/SectionTitle/SectionTitle";
-import Button from "../UI/Button/Button";
 import Link from "next/link";
 import useAppContext from "../../Context/UseAppContext";
 

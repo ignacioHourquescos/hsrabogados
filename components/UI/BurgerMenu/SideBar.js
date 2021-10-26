@@ -1,8 +1,8 @@
 import React, {useState, useEffect, useRef} from 'react';
 import Link from 'next/link';
-import { useRouter } from 'next/router';
+
 import classes from './SideBar.module.scss';
-import ScrollAnimation from "react-animate-on-scroll";
+
 import "animate.css/animate.min.css";
 
 import useAppContext from '../../../Context/UseAppContext';
