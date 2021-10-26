@@ -8,6 +8,11 @@
    display: flex;
    flex-direction: column;
    align-items: center;
+   background-color:white;
+   @media #{$desktop}{
+// width:30%;
+margin: 3rem 10%;
+   }
 
    .image {
       width: 100%;
@@ -34,7 +39,7 @@
    .partner_bio {
       width: 90%;
       color: $black;
-      border:1px solid #011627af;
+      // border:1px solid #011627af;
       transform: translateY(-60px);
       padding:1rem;
       font-family: $secondaryFont;
@@ -43,7 +48,8 @@
    .button_secondary {
       background-color: transparent;
       color: $white;
-      border: 2px solid white;
+      color:black;
+       border:1px solid #011627af;
       padding: 1rem;
       margin-top:1rem;
       width:100%;

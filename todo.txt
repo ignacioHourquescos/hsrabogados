@@ -50,7 +50,7 @@ CeroliniFerrari o Martinez de Hoz Rueda y pongamos alguna de esas.
 Raleway Thin
 OK- cpatura de pantalla
 
-3. En cuanto a las secciones. Mas allá del Home Principal, creemos conveniente tener 
+🟢3. En cuanto a las secciones. Mas allá del Home Principal, creemos conveniente tener 
 las siguientes secciones: 1) La Firma (Institucional): Solo tendría una frase corta. 
 No incluiríamos ni visión ni misión de la firma; 2) Socios; 3) Areas de Práctica; 4) Carrera: 
 5) Novedades; 6) Contacto. Como verán decidimos separar las secciones socios de areas de práctica
@@ -67,7 +67,7 @@ podría utilizarse la negrita
 🟢 A su vez, en el HOME debiera eliminarse la parte de "Clientes". Con "Referencias" 
 (por favor modificar por "Testimonios") nos es suficiente para resaltar a nuestros clientes.
 
-5. Los headers de cada sección debieran ser mas "finitos" y en rojo o con algúna 
+. Los headers de cada sección debieran ser mas "finitos" y en rojo o con algúna 
 foto de fondo que le estaremos pasando. Antes habría que retocarlas para que queden menos artesanales!
 
 🟡.6 En la sección "Socios", también poner fondo blanco con el recuadro detras de 

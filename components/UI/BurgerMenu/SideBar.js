@@ -23,7 +23,7 @@ const SideBar = (props) => {
                 {lang=="ESP"
                 ?
                   <ul >
-                      {/* <li onClick={props.click}><Link href="/">                  El Estudio</Link></li> */}
+                      <li onClick={props.click}><Link href="/">                  Home</Link></li>
                       <li onClick={props.click}><Link href="/institucional">     Institucional</Link></li>
                       <li onClick={props.click}><Link href="/areasDePractica">   Areas de Practica</Link></li>
                       <li onClick={props.click}><Link href="/socios">            Socios</Link></li>
@@ -33,7 +33,7 @@ const SideBar = (props) => {
                   </ul>
                   :
                   <ul >
-                      {/* <li onClick={props.click}><Link href="/">                  The Firm</Link></li> */}
+                      <li onClick={props.click}><Link href="/">                  Home</Link></li>
                       <li onClick={props.click}><Link href="/institutional">     Institucional</Link></li>
                       <li onClick={props.click}><Link href="/areasDePractica">   Practice Areas</Link></li>
                       <li onClick={props.click}><Link href="/socios">            Partners</Link></li>
