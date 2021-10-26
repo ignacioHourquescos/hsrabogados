@@ -96,7 +96,7 @@
 .brief{
    font-weight:400;
    font-weight:bold;
-   font-size:1.2rem;
+   font-size:1.4rem;
    padding-bottom:2rem; 
    color:$black;	
 		@media #{$desktop} {
@@ -114,3 +114,21 @@
           font-size:1.4rem;
          }
       }
+
+         .share_container{
+            display:flex;
+            align-items: center;
+            align-content: center;
+            margin-top:2rem;
+            .share{
+               font-size:1.4rem;
+               font-weight:200;
+               padding:0;
+               margin:0;
+                        
+         @media #{$desktop} {
+            font-size:2rem;
+           }
+ 
+            }
+         }

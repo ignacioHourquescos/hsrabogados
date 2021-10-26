@@ -6,6 +6,15 @@ import HeaderSub from "../../components/HeaderSub/HeaderSub";
 import {documentToReactComponents} from '@contentful/rich-text-react-renderer'
 import useAppContext from '../../Context/UseAppContext';
 import Footer from '../../components/Footer/Footer'
+import {
+   LinkedinShareButton,
+   WhatsappShareButton
+ } from "react-share";
+
+ import {
+   LinkedinIcon,
+   WhatsappIcon,
+ } from "react-share";
 
 
 const client = createClient({
@@ -35,11 +44,22 @@ const Novedades = ({ noticia }) => {
 			<div className={ss.container}>
             {lang == "ESP" ? 
             <>
+                <div className={ss.autor}>Autor: {noticia.fields.autor}</div>
             <div className={ss.date}>Fecha: {noticia.sys.updatedAt.substring(0,10)}</div>    
-            <div className={ss.autor}>Autor: {noticia.fields.autor}</div>
-    
+        
+
 				<div className={ss.brief}>{noticia.fields.brief}</div>
+
 				<div className={ss.content}>{documentToReactComponents(noticia.fields.cuerpo)}</div>
+            <div className={ss.share_container}>
+            <span className={ss.share} >Compartir via:</span>
+            <LinkedinShareButton style={{marginLeft:"0.7rem"}}  url="https://www.lanacion.com">
+               <LinkedinIcon size={32} round={true} />
+            </LinkedinShareButton>
+            <WhatsappShareButton style={{marginLeft:"0.7rem"}} url="https://www.lanacion.com">
+               <WhatsappIcon size={32} round={true} />
+            </WhatsappShareButton>
+            </div>
             </>
             :
             <>
@@ -81,3 +101,5 @@ export async function getStaticProps({ params }) {
 		props: { noticia: items[0] },
 	};
 }
+
+
