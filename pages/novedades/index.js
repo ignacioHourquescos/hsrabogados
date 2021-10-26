@@ -27,9 +27,9 @@ const Block = ({noticias}) => {
 	return (
 		<>
 			<Head>
-				<title>HSR ABOGADOS</title>
+				<title>HSR - Novedades</title>
 				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
-				<meta name="description" content="HSR Abogados" />
+				<meta name="description" content="HSR - Novedades" />
 				<meta property="og:title" content="HSR ABogados" />
 				<meta property="og:description" content="Areas de Practica" />
 				<meta property="og:image" content="/logo.jpg" />
@@ -44,7 +44,7 @@ const Block = ({noticias}) => {
 					mandamus eu vis, pro iudico regione prodesset cu
 				</div>
 
-            
+           <div className={s.card_container}>
 				{noticias.map((noticia) => (
 					<Card
 						key={noticia.sys.id}
@@ -55,6 +55,7 @@ const Block = ({noticias}) => {
 						noticias={noticias}
 					/>
 				))}
+            </div>
 			</div>
 
 			<Footer />
@@ -63,21 +64,3 @@ const Block = ({noticias}) => {
 };
 
 export default Block;
-
-const newsArray = [
-	{
-		title: "AFIP",
-		content:
-			"Lorem ipsum dolor sit amet, pro ex modo veniam complectitur, ad sed alii enim explicari. Primis ridenPossim quodsi gubergren pro cu. Facer mandamus eu vis, pro iudico regione prodesset cu.",
-	},
-	{
-		title: "BANCO MACRO",
-		content:
-			"LOREM Lorem ipsum dolor sit amet, pro ex modo veniam complectitur, ad sed alii enim explicari. Psibus sea. Possim quodsi gubergren pro cu. Facer mandamus eu vis, pro iudico regione prodesset cu.",
-	},
-	{
-		title: "SINDICATO",
-		content:
-			"LOREM Lorem ipsum dolor sit amet, pro ex modo veniam complectitur, ad sed alii enim explicari. Pribus sea. Possim quodsi gubergren pro cu. Facer mandamus eu vis, pro iudico regione prodesset cu.",
-	},
-];

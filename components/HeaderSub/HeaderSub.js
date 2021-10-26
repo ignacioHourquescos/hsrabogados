@@ -17,7 +17,7 @@ import s from './HeaderSub.module.scss'
 				</div> */}
 
 				<div className={s.headersub_title}>
-					<div className={s.logo_red_icon}>{logoRedIcon}</div>
+					{/* <div className={s.logo_red_icon}>{logoRedIcon}</div> */}
 					<h1>{titulo}</h1>
 				</div>
 

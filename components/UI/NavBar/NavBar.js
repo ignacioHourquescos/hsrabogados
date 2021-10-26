@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 import useAppContext from '../../../Context/UseAppContext';
 
-
+import { useRouter } from "next/router";
    
 
 
@@ -14,6 +14,13 @@ import useAppContext from '../../../Context/UseAppContext';
 const Form = ({text}) => {
 
    const {lang} = useAppContext();
+
+   const router = useRouter();
+
+	const goHome = () => {
+		const fullPath = `/`;
+		router.push(fullPath);
+	};
 
    // useEffect(() => {
    //    changeBackground()
@@ -33,6 +40,14 @@ const Form = ({text}) => {
 
    return (
       <>
+               <div className={ss.back_to_home} onClick={goHome}>
+					<span>{miniLogo}</span>
+					<span className={ss.minilogo_names}>
+						<div>HANG KUCHEN </div>
+						<div>SPORDELER <span> &</span> </div>
+                  <div>RODRIGUEZ MORALES </div>
+					</span>
+				</div>
 
          {lang=="ESP"
                 ?
@@ -74,3 +89,8 @@ const Form = ({text}) => {
 }
 
 export default Form;
+
+const miniLogo = <svg width="29" height="30" viewBox="0 0 29 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M23.3577 9.53295L20.8378 12.0782L23.9603 15.2321L14.8201 24.4647L5.67975 15.2321L14.8201 5.9997L18.3136 9.52851L20.8334 6.98337L14.8201 0.909234L0.640137 15.2321L14.8201 29.5551L28.9999 15.2321L23.3577 9.53295Z" fill="white"/>
+<path d="M23.3841 9.48193L20.8599 6.93235L23.3841 4.38268L25.9082 6.93235L23.3841 9.48193Z" fill="white"/>
+</svg>

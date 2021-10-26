@@ -35,6 +35,20 @@ const Form = ({text}) => {
          <>
         
          <div className={s.container} style={{backgroundColor:"black"}}>
+         {/* <div className={s.back_to_home} onClick={goHome}>
+					<span>{miniLogo}</span>
+					<span className={s.minilogo_names}>
+						<div>HANG KUCHEN </div>
+						<div>SPORDELER <span> &</span> </div>
+                  <div>RODRIGUEZ MORALES </div>
+					</span>
+				</div> */}
+         </div>
+         </>
+
+         :
+         <div className={s.container}>
+
          <div className={s.back_to_home} onClick={goHome}>
 					<span>{miniLogo}</span>
 					<span className={s.minilogo_names}>
@@ -43,13 +57,7 @@ const Form = ({text}) => {
                   <div>RODRIGUEZ MORALES </div>
 					</span>
 				</div>
-         </div>
-         </>
-
-         :
-         <div className={s.container}>
-
-         
+    
          
          </div>
       }

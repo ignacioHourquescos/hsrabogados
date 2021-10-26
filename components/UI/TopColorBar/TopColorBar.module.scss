@@ -10,7 +10,7 @@
    padding-right:7rem;
    display:flex;
    flex-direction: row;
-   z-index:103;
+   z-index:199;
    justify-content: flex-end;
    align-content: flex-end;
    align-items:baseline;
@@ -38,10 +38,19 @@
       height:50px;
       display:flex;
       flex-direction: row;
-      z-index:105;
+      z-index:3005;
+      
+   :hover{
+      // border-bottom: 1px solid $gold;
+      cursor:pointer;
+   } 
       @media #{$desktop} {
          padding: 0 10%;
-      
+         left:0.5rem;
+         :hover{
+            // border-bottom: 1px solid $gold;
+            cursor:pointer;
+         } 
   
        }
 
@@ -49,8 +58,18 @@
          font-family: $mainFont;
          font-size:0.5rem;
          margin-left:0.5rem;
+         z-index:205;
+         :hover{
+            // border-bottom: 1px solid $gold;
+            cursor:pointer;
+         } 
          span{
             font-weight: bold;
+            z-index:205;
+            :hover{
+               // border-bottom: 1px solid $gold;
+               cursor:pointer;
+            } 
          }
       }
    }

@@ -10,7 +10,7 @@ const Block = () => {
 	return (
 		<>
 			<Head>
-				<title>HSR ABOGADOS</title>
+				<title>HSR - Socios</title>
 				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 				<meta name="description" content="HSR Abogados" />
 				<meta property="og:title" content="HSR ABogados" />

@@ -58,3 +58,46 @@
    }
 }
 
+.back_to_home{
+   position:fixed;
+   top:1.1rem;
+   left:1.5rem;
+   height:50px;
+   display:flex;
+   flex-direction: row;
+   z-index:3005;
+   color:white;
+   
+:hover{
+   // border-bottom: 1px solid $gold;
+   cursor:pointer;
+} 
+   @media #{$desktop} {
+      padding: 0 10%;
+      left:0.5rem;
+      :hover{
+         // border-bottom: 1px solid $gold;
+         cursor:pointer;
+      } 
+
+    }
+
+   .minilogo_names{
+      font-family: $mainFont;
+      font-size:0.5rem;
+      margin-left:0.5rem;
+      z-index:205;
+      :hover{
+         // border-bottom: 1px solid $gold;
+         cursor:pointer;
+      } 
+      span{
+         font-weight: bold;
+         z-index:205;
+         :hover{
+            // border-bottom: 1px solid $gold;
+            cursor:pointer;
+         } 
+      }
+   }
+}
