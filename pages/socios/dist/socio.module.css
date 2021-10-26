@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap");
+.master_container, .container {
+  height: 100vh;
+  width: 100%;
+  padding: 2rem;
+}
+
+.button_primary {
+  align-content: center;
+  align-items: left;
+  color: #01111f;
+  font-size: 1.3rem;
+  justify-self: left;
+  justify-items: left;
+  text-align: left;
+  margin: 0 auto;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  margin: 0.5rem 0;
+  position: relative;
+  z-index: 102;
+}
+@media only screen and (min-width : 801px) {
+  .button_primary {
+    font-size: 1.6rem;
+  }
+}
+
+.button_primary:after {
+  position: absolute;
+  content: "";
+  height: 8px;
+  bottom: 0px;
+  margin: 0;
+  left: 0;
+  width: 70px;
+  background: #AF1B26;
+  z-index: 101;
+  /* optional animation */
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* optional hover classes used with anmiation */
+.button_primary:hover:after {
+  width: 50%;
+  background: #f9313e;
+}
+
+.container {
+  background-image: none;
+  background-image: linear-gradient(to bottom, #c7c7c7, #f5f5f5);
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #01111f;
+  height: 100%;
+  background-color: white;
+}
+@media only screen and (min-width : 801px) {
+  .container {
+    width: 80%;
+    padding: 5% 10%;
+  }
+}
+.container .intro {
+  border-bottom: 2px solid #f9313e;
+}
+.container .detail {
+  margin: 0.5rem;
+}
+
+.main_container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+@media only screen and (min-width : 801px) {
+  .main_container {
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: flex-start;
+  }
+}
+.main_container .image_container {
+  width: 50%;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  justify-content: flex-start;
+  padding-bottom: 1rem;
+}
+.main_container .image_container .contact_icons {
+  margin: 0% 0%;
+  display: flex;
+  justify-content: space-around;
+  align-items: space-around;
+  border-radius: 200px;
+  padding: 0%;
+}
+@media only screen and (min-width : 801px) {
+  .main_container .image_container .contact_icons {
+    flex-direction: column;
+    padding: 0%;
+  }
+}
+.main_container .image_container .contact_icons div {
+  margin: 5%;
+}
+@media only screen and (min-width : 801px) {
+  .main_container .image_container .contact_icons div {
+    margin-left: 2rem;
+  }
+}
+@media only screen and (min-width : 801px) {
+  .main_container .image_container {
+    flex-direction: row;
+    padding: 5% 10%;
+  }
+}

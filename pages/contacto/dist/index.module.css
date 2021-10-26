@@ -151,7 +151,14 @@
 }
 
 .form {
-  padding-top: 3rem;
+  padding-top: 0rem;
+  margin-bottom: 3rem;
+}
+@media only screen and (min-width : 801px) {
+  .form {
+    padding: 2rem;
+    margin-bottom: 0rem;
+  }
 }
 
 .campo {
@@ -192,4 +199,32 @@
 
 .enviar:hover {
   background-color: #2b2d42;
+}
+
+.sent_message {
+  height: 50%;
+  width: 100%;
+  border-radius: 30px;
+  text-align: center;
+}
+.sent_message h3 {
+  color: #01111f;
+  font-size: 2rem;
+  font-weight: 200;
+  font-family: "Raleway", sans-serif;
+  margin: 10% 0;
+  padding: auto 0;
+  align-items: center;
+  align-content: center;
+}
+
+.punch_line {
+  color: #01111f;
+  font-size: 2rem;
+  font-weight: 300;
+  font-family: "Raleway", sans-serif;
+  margin: 10% 0;
+  padding: auto 0;
+  align-items: center;
+  align-content: center;
 }

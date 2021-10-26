@@ -12,12 +12,12 @@
 🟢hacer que funcione ING ESP en Novedades
 🟢Armar NavBar
 ⚪ver brochure de descargar en PDF. contenful?
-⚪Armar formulario de Contacto y conectarlo con la app de formularios para que se renvie
+🟢Armar formulario de Contacto y conectarlo con la app de formularios para que se renvie
 
 
 ==>CHEQUEO RESPONSIVE
 🟢HOME
-⚪NOVEDADES
+🟢NOVEDADES
 🟢NOVEDADES DETALLE
 ⚪SOCIOS
 ⚪SOCIOS DETALLE

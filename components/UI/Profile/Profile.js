@@ -25,7 +25,7 @@ const Profile = ({name, lastname, bio, img}) => {
 		<div className={s.container}>
 			{/* <img className={s.image} src="./partner1.png"></img> */}
 			{/* <div className={s.background_square}>&nbsp</div> */}
-			<Image className={s.image} src="/Partner1.png" alt="socio" width="350px" height="350px"></Image>
+			<Image className={s.image} src={img} alt="socio" width="300px" height="300px"></Image>
          
 
 			<div className={s.partner_name_container}>

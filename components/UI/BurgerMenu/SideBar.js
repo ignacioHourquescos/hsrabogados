@@ -34,7 +34,7 @@ const SideBar = (props) => {
                   :
                   <ul >
                       <li onClick={props.click}><Link href="/">                  Home</Link></li>
-                      <li onClick={props.click}><Link href="/institutional">     Institucional</Link></li>
+                      <li onClick={props.click}><Link href="/institucional">     Institucional</Link></li>
                       <li onClick={props.click}><Link href="/areasDePractica">   Practice Areas</Link></li>
                       <li onClick={props.click}><Link href="/socios">            Partners</Link></li>
                       <li onClick={props.click}><Link href="/novedades">         Latest News</Link></li>

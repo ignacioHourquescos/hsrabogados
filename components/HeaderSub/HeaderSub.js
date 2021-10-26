@@ -1,10 +1,10 @@
 import React from 'react'
 import s from './HeaderSub.module.scss'
 
- const HeaderSub = ({ titulo, img }) => {
+ const HeaderSub = ({ titulo, img}) => {
 		return (<>
 
-    
+   
 			<div className={s.container} style={{ backgroundImage: `url("/${img}")`}}>
          <div className={s.overlay}></div>
 				{/* <div className={s.back_to_home}>

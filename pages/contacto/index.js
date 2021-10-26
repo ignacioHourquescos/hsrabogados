@@ -1,37 +1,42 @@
 import s from "./index.module.scss";
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import SectionTitle from "../../components/UI/SectionTitle/SectionTitle";
 import HeaderSub from "../../components/HeaderSub/HeaderSub"
 import Link from "next/link";
 import useAppContext from "../../Context/UseAppContext";
 import emailjs from 'emailjs-com';
+import Footer from '../../components/Footer/Footer'
 
 const ContactForm = () => {
 	const { lang } = useAppContext();
+   const [displayInputs, setDisplayInputs] = useState(true)
    
    const form = useRef();
    const sendEmail = (e) => {
       e.preventDefault();
-
-      emailjs.sendForm('service_xwdzf6d', 'template_84u28uj', form.current, 'user_GqWB6DWgQTHICnHQEnvCU')
-         .then((result) => {
-            console.log(result.text);
-         }, (error) => {
-            console.log(error.text);
-         });
+      setDisplayInputs(false);
+      // emailjs.sendForm('service_xwdzf6d', 'template_84u28uj', form.current, 'user_GqWB6DWgQTHICnHQEnvCU')
+      //    .then((result) => {
+      //       console.log(result.text);
+      //    }, (error) => {
+      //       console.log(error.text);
+      //    });
    };
 
 
 	return (
       <>
-      <HeaderSub titulo={lang=="ESP"?"CONTACTO":"CONTACT"} img="ofi1.jpg" />
+      <HeaderSub positon={top} titulo={lang=="ESP"?"CONTACTO":"CONTACT"} img="ofi4.jfif" />
 		<div className={s.general_container}>
 
 			<div className={s.title_container}>
-				<SectionTitle color="black">{lang == "ESP" ? esp[0] : eng[0]}</SectionTitle>
+         <h3 className={s.punch_line}>Escribinos tu consulta</h3>
 			</div>
 			<div className={s.master_container}>
-         <form className={s.form} ref={form} onSubmit={sendEmail}>
+         {
+            displayInputs
+            ?
+            <form className={s.form} ref={form} onSubmit={sendEmail}>
             <label>Nombre</label>
             <input className={s.campo} type="text" name="user_name" />
             <label>Email</label>
@@ -40,10 +45,24 @@ const ContactForm = () => {
             <textarea className={s.campo2} name="message" />
             <input className={s.enviar} type="submit" value="Send" />
          </form>
+         :
+            <div className={s.sent_message}>
+             <h3>Su mensaje fue enviado</h3>
+             <h3>Nos contactaremos a la brevedad</h3>
+             <Link href="/">
+						<a className={s.button_primary}>
+							{lang == "ESP" ? esp[4] : eng[4]}
+						</a>
+					</Link>
+            </div>
+
+         }
+         
 
 			</div>
 			{/* <div>{backgorund}</div> */}
 		</div>
+      <Footer/>
       </>
 	);
 };
@@ -73,6 +92,7 @@ const esp = [
   complejas.",
 	"Socios",
 	"Areas de Práctica",
+   "Volver al Inicio",
 ];
 
 const eng = [
@@ -81,6 +101,7 @@ const eng = [
    and lateral thinking we seek to brake down complexity into solutions ",
 	"Partners",
 	"Practice Areas",
+   "Back to Home Page",
 ];
 
 
@@ -88,3 +109,8 @@ const eng = [
  <path d="M0 0H414L230.629 507H0V0Z" fill="#C4C4C4" fillOpacity="0.15"/>
  </svg>
  
+
+ const close =<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.63721 23.5979L23.9111 1.32404" stroke="white" strokeWidth="2"/>
+<path d="M2 2L24.2739 24.2739" stroke="white" strokeWidth="2"/>
+</svg>
