@@ -1,4 +1,4 @@
-import ss from "./index.module.scss";
+import ss from "./slug.module.scss";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import { createClient } from "contentful";
@@ -35,8 +35,9 @@ const Novedades = ({ noticia }) => {
 			<div className={ss.container}>
             {lang == "ESP" ? 
             <>
+            <div className={ss.date}>Fecha: {noticia.sys.updatedAt.substring(0,10)}</div>    
             <div className={ss.autor}>Autor: {noticia.fields.autor}</div>
-            <div className={ss.date}>Fecha: {noticia.sys.updatedAt.substring(0,10)}</div>        
+    
 				<div className={ss.brief}>{noticia.fields.brief}</div>
 				<div className={ss.content}>{documentToReactComponents(noticia.fields.cuerpo)}</div>
             </>

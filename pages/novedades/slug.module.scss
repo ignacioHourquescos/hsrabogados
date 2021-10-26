@@ -1,0 +1,116 @@
+@import "../../styles/constants.scss";
+
+.container {
+	@extend .master_container;
+
+	// background-image: none;
+	// background-color: $darkRed;
+   background-color: white;
+   //  background-color: red;
+   padding:10%;
+    width: 100%;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+   justify-content: flex-start;
+	color: $black;
+   height:100%;
+   padding:10%;
+   
+	// height: 100%;
+	@media #{$desktop} {
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-items: flex-start;
+      padding:10%;
+      padding-top:5%;
+	}
+
+	.intro {
+		font-family: $secondaryFont;
+		margin-bottom: 3rem;
+      color:$black;
+		@media #{$desktop} {
+         width:80%;
+         margin:5% 10%;
+			padding: 0 10%;
+			font-size: 1.5rem;
+		}
+	}
+	.card_container {
+		background-image: none;
+		// background-color: $darkRed;
+		width: 100%;
+		z-index: 1;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		color: white;
+	
+		@media #{$desktop} {
+         width:80%;
+         margin:0 10%;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: center;
+         justify-items: center;
+		}
+		.min_title {
+			color: $black;
+			border: 1px solid $white;
+			padding: 1rem;
+			margin-bottom: 1rem;
+			border-left: 10px solid $black;
+			position: relative;
+			span {
+				position: absolute;
+				right: 1rem;
+				font-weight: bold;
+			}
+		}
+	}
+}
+
+
+
+.intro{
+   margin-top:0rem;
+   font-size: 1.1rem;
+   color: $black;
+   font-family:$secondaryFont;
+   letter-spacing:0rem;
+  
+   text-align:center;
+   margin-bottom:1rem;
+}
+
+.autor{
+   font-weight:400;
+   font-weight:bold;
+   font-size:1rem;
+   padding-bottom:2rem;
+   }
+
+   
+.brief{
+   font-weight:400;
+   font-weight:bold;
+   font-size:1.2rem;
+   padding-bottom:2rem; 
+   color:$black;	
+		@media #{$desktop} {
+       font-size:2rem;
+		}
+   }
+
+   .content{
+      font-weight:400;
+      font-size:1.2rem;
+      color:grey; 	
+  
+         
+         @media #{$desktop} {
+          font-size:1.4rem;
+         }
+      }
