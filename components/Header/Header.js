@@ -38,8 +38,8 @@ const Header = () => {
                </iframe> */}
              <video autoPlay loop muted className={ss.video} 
 
->
-               <source src='./intro10.m4v' type='video/mp4' />
+
+             src='./intro10.m4v'>
             </video>
 
             {/* <YouTube videoId="deCFaF4TSOk?autoplay=1&mute=1&modestbranding=1&autohide=1&showinfo=0&controls=0" opts={opts}  />; */}
