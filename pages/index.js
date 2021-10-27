@@ -1,18 +1,11 @@
-import Enconstruccion from '../components/enconstruccion/enconstruccion'
+
 import Header from '../components/Header/Header'
-import BurgerMenu from '../components/UI/BurgerMenu/BurgerMenu'
 import LanguageSwitch from '../components/LanguageSwitch/LanguageSwitch'
 import About from '../components/About/About'
 import Referals from '../components/Referals/Referals'
 import News from '../components/News/News'
-import Clients from '../components/Clients/Clients'
-import Contact from '../components/Contact/Contact'
 import Footer from '../components/Footer/Footer'
-import Logos from '../components/Logos2/Logos'
-import Layout from '../components/UI/BurgerMenu/BurgerMenu'
-import SideBar from "../components/UI/BurgerMenu/BurgerMenu";
 import ContactPeek from '../components/ContactPeek/ContactPeek';
-// import useAppContext    from '../../Context/UseAppContext';
 import { createClient } from 'contentful'
 
 
