@@ -3,7 +3,6 @@ import s from "./News.module.scss";
 import SectionTitle from "../UI/SectionTitle/SectionTitle";
 import Card from "../UI/Card/Card";
 import useAppContext from "../../Context/UseAppContext";
-import { createClient } from "contentful";
 
 import { useState } from "react";
 
