@@ -5,7 +5,7 @@ import classes from './SideBar.module.scss';
 
 import "animate.css/animate.min.css";
 
-import useAppContext from '../../../Context/UseAppContext';
+import useAppContext from '../../Context/UseAppContext';
 
 
    

@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import Layout from '../components/UI/BurgerMenu/Layout'
+import Layout from '../components/BurgerMenu/Layout'
 import LanguageSwitch   from '../components/LanguageSwitch/LanguageSwitch'
 import TopColorBar from '../components/UI/TopColorBar/TopColorBar'
 import NavBar from '../components/UI/NavBar/NavBar'
