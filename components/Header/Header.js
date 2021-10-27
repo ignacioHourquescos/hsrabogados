@@ -1,8 +1,20 @@
 import React from 'react';
 import ss from './Header.module.scss'
 import { BrowserView, MobileView, isBrowser, isMobile } from 'react-device-detect';
+import YouTube from 'react-youtube';
 
 const Header = () => {
+
+   const opts = {
+      height: '390',
+      width: '640',
+      playerVars: {
+        // https://developers.google.com/youtube/player_parameters
+        autoplay: 1,
+      }
+   }
+
+
    return (
       <>
          <div className={ss.video_container}>     
@@ -21,9 +33,16 @@ const Header = () => {
 
             <div className={ss.video_overlay}>
             </div>
-             <video autoPlay loop muted className={ss.video}>
-               <source src='./intro5.mp4' type='video/mp4' />
+            {/* <iframe width="100%" height="100%" 
+                  src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1&modestbranding=1&autohide=1&showinfo=0&controls=0">
+               </iframe> */}
+             <video autoPlay loop muted className={ss.video} 
+
+>
+               <source src='./intro10.m4v' type='video/mp4' />
             </video>
+
+            {/* <YouTube videoId="deCFaF4TSOk?autoplay=1&mute=1&modestbranding=1&autohide=1&showinfo=0&controls=0" opts={opts}  />; */}
 
             <div className={ss.bounce}>
            {arrowDown}
