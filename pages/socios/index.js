@@ -6,6 +6,8 @@ import Footer from '../../components/Footer/Footer'
 import ScrollAnimation from "react-animate-on-scroll";
 import "animate.css/animate.min.css";
 import useAppContext from "../../Context/UseAppContext";
+import ContactPeek from '../../components/ContactPeek/ContactPeek'
+
 const Block = () => {
    const { lang } = useAppContext();
 	return (
@@ -19,7 +21,7 @@ const Block = () => {
 				<meta property="og:image" content="/logo.jpg" />
 			</Head>
 
-         <HeaderSub titulo={lang=="ESP"?"SOCIOS DEL ESTUDIO":"PARTNERS"} img="ofi2.jpg" />
+         <HeaderSub titulo={lang=="ESP"?"SOCIOS DEL ESTUDIO":"PARTNERS"} img="ofi7.jpeg" />
 
 			<div className={ss.container}>
             {partners.map((element) =>(
@@ -32,6 +34,7 @@ const Block = () => {
 
             
 			</div>
+         <ContactPeek/>
          <Footer/>
 		</>
 	);

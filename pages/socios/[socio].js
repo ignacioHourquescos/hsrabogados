@@ -8,6 +8,7 @@ import HeaderSub from "../../components/HeaderSub/HeaderSub";
 import Footer from "../../components/Footer/Footer";
 import useAppContext from "../../Context/UseAppContext";
 import Image from 'next/image'
+import ContactPeek from '../../components/ContactPeek/ContactPeek'
 
 const Socio = () => {
 	const router = useRouter();
@@ -115,6 +116,7 @@ const Socio = () => {
 					  ))}
 			</div>
          </div>
+         <ContactPeek/>
 			<Footer></Footer>
 		</>
 	);

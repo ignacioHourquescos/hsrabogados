@@ -24,7 +24,7 @@ const SideBar = (props) => {
                 ?
                   <ul >
                       <li onClick={props.click}><Link href="/">                  Home</Link></li>
-                      <li onClick={props.click}><Link href="/institucional">     Institucional</Link></li>
+                      <li onClick={props.click}><Link href="/institucional">     La Firma</Link></li>
                       <li onClick={props.click}><Link href="/areasDePractica">   Areas de Practica</Link></li>
                       <li onClick={props.click}><Link href="/socios">            Socios</Link></li>
                       <li onClick={props.click}><Link href="/novedades">         Novedades</Link></li>
@@ -34,11 +34,11 @@ const SideBar = (props) => {
                   :
                   <ul >
                       <li onClick={props.click}><Link href="/">                  Home</Link></li>
-                      <li onClick={props.click}><Link href="/institucional">     Institucional</Link></li>
+                      <li onClick={props.click}><Link href="/institucional">     The Firm</Link></li>
                       <li onClick={props.click}><Link href="/areasDePractica">   Practice Areas</Link></li>
                       <li onClick={props.click}><Link href="/socios">            Partners</Link></li>
-                      <li onClick={props.click}><Link href="/novedades">         Latest News</Link></li>
-                      <li onClick={props.click}><Link href="/carreras">          carrers</Link></li>
+                      <li onClick={props.click}><Link href="/novedades">         News</Link></li>
+                      <li onClick={props.click}><Link href="/carreras">          Carrers</Link></li>
                       <li onClick={props.click}><Link href="/contacto">          Contact</Link></li>
                   </ul>
                 }

@@ -50,9 +50,9 @@ const showDetailHandler = () => {
 			
 
 			<div className={s.container}>
-				<div className={s.intro}>
+				{/* <div className={s.intro}>
             {loading?"":services[1]}
-				</div>
+				</div> */}
             <div className={s.card_container}>
 				{loading?"":services[0].map((element) => (
                <>{

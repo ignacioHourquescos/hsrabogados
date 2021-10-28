@@ -5,6 +5,7 @@ import Card from "../../components/UI/Card/Card";
 import Footer from "../../components/Footer/Footer";
 import { createClient } from 'contentful'
 import useAppContext from "../../Context/UseAppContext";
+import ContactPeek from '../../components/ContactPeek/ContactPeek'
 
 export async function getStaticProps() {
 
@@ -35,14 +36,14 @@ const Block = ({noticias}) => {
 				<meta property="og:image" content="/logo.jpg" />
 			</Head>
 
-			<HeaderSub titulo="NOVEDADES" img="HeaderSub1.png" />
+			<HeaderSub titulo="NOVEDADES" img="ofi8.jpeg" />
 
 			<div className={s.container}>
-				<div className={s.intro}>
+				{/* <div className={s.intro}>
 					Lorem ipsum dolor sit amet, pro ex modo veniam complectitur, ad sed
 					alii enim explicari. Primis ridenPossim quodsi gubergren pro cu. Facer
 					mandamus eu vis, pro iudico regione prodesset cu
-				</div>
+				</div> */}
 
            <div className={s.card_container}>
 				{noticias.map((noticia) => (
@@ -57,7 +58,7 @@ const Block = ({noticias}) => {
 				))}
             </div>
 			</div>
-
+         <ContactPeek/>
 			<Footer />
 		</>
 	);

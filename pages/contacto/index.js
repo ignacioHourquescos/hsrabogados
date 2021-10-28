@@ -6,6 +6,7 @@ import Link from "next/link";
 import useAppContext from "../../Context/UseAppContext";
 import emailjs from 'emailjs-com';
 import Footer from '../../components/Footer/Footer'
+import ContactPeek from "../../components/ContactPeek/ContactPeek";
 
 const ContactForm = () => {
 	const { lang } = useAppContext();
@@ -62,6 +63,7 @@ const ContactForm = () => {
 			</div>
 			{/* <div>{backgorund}</div> */}
 		</div>
+      <ContactPeek/>
       <Footer/>
       </>
 	);

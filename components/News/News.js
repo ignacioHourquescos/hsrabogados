@@ -3,6 +3,7 @@ import s from "./News.module.scss";
 import SectionTitle from "../UI/SectionTitle/SectionTitle";
 import Card from "../UI/Card/Card";
 import useAppContext from "../../Context/UseAppContext";
+import { BrowserView, MobileView, isBrowser, isMobile } from 'react-device-detect';
 
 import { useState } from "react";
 
@@ -19,7 +20,7 @@ export default function News({ noticias }) {
       <div className={s.general_container}>
          
 			<div className={s.title_container}>
-				<SectionTitle color="black">{lang == "ESP" ? esp[0] : eng[0]}</SectionTitle>
+				<SectionTitle color={isBrowser?"white":"black"}>{lang == "ESP" ? esp[0] : eng[0]}</SectionTitle>
 			</div>
 			<div className={s.container}>
 				{noticias.slice(0, 4).map((noticia) => (
@@ -33,7 +34,10 @@ export default function News({ noticias }) {
 					/>
 				))}
 			</div>
+         <div className={s.overlay}></div>
          </div>
+
+         
 		</>
 	);
 }

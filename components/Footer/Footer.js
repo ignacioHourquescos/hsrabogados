@@ -12,18 +12,22 @@ export default function Footer() {
                 {lang == "ESP"
                     ?
                     <div className={ss.container}>
-                        <div className={ss.link}><Link href="/">                  El Estudio</Link></div>
+                        <div className={ss.link}><Link href="/">                  Home</Link></div>
+                        <div className={ss.link}><Link href="/institucional">     La Firma</Link></div>
                         <div className={ss.link}><Link href="/areasDePractica">   Areas de Practica</Link></div>
                         <div className={ss.link}><Link href="/socios">            Socios</Link></div>
                         <div className={ss.link}><Link href="/novedades">         Novedades</Link></div>
+                        <div className={ss.link}><Link href="/carreras">          Carreras</Link></div>
                         <div className={ss.link}><Link href="/contacto">          Contacto</Link></div>
                     </div>
                     :
                     <div className={ss.container}>
-                        <div className={ss.link}><Link href="/">                  Institutional</Link></div>
+                        <div className={ss.link}><Link href="/">                  Home</Link></div>
+                        <div className={ss.link}><Link href="/institucional">     The Firm</Link></div>
                         <div className={ss.link}><Link href="/areasDePractica">   Practice Areas</Link></div>
                         <div className={ss.link}><Link href="/socios">            Partners</Link></div>
-                        <div className={ss.link}><Link href="/novedades">         Latest News</Link></div>
+                        <div className={ss.link}><Link href="/novedades">         News</Link></div>
+                        <div className={ss.link}><Link href="/carreras">          Carrers</Link></div>
                         <div className={ss.link}><Link href="/contacto">          Contact</Link></div>
                     </div>
 
@@ -35,9 +39,6 @@ export default function Footer() {
 
                 <p>HSR Abogados © 2021</p>
             </div>
-
-
-
 
 
 

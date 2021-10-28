@@ -6,6 +6,7 @@ import HeaderSub from "../../components/HeaderSub/HeaderSub";
 import {documentToReactComponents} from '@contentful/rich-text-react-renderer'
 import useAppContext from '../../Context/UseAppContext';
 import Footer from '../../components/Footer/Footer'
+import ContactPeek from '../../components/ContactPeek/ContactPeek'
 import {
    LinkedinShareButton,
    WhatsappShareButton
@@ -39,7 +40,7 @@ const Novedades = ({ noticia }) => {
 				<meta property="og:image" content="/logo.jpg" />
 			</Head>
 
-         <HeaderSub titulo={lang=="ESP"?noticia.fields.titulo:noticia.fields.tituloIngles} img="HeaderSub1.png" />
+         <HeaderSub titulo={lang=="ESP"?noticia.fields.titulo:noticia.fields.tituloIngles} img="ofi8.jpeg" />
 
 			<div className={ss.container}>
             {lang == "ESP" ? 
@@ -71,7 +72,7 @@ const Novedades = ({ noticia }) => {
             }
      
 			</div>
-
+         <ContactPeek/>
          <Footer/>
 		</>
 	);

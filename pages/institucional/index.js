@@ -66,19 +66,20 @@ const backgorund = (
 
 const esp = [
 	"Nosotros",
-"Cerolini & Ferrari Abogados es una firma de servicios legales que ofrece asesoramiento de excelencia con el objetivo de brindar soluciones creativas e innovadoras frente a las necesidades de sus clientes a nivel local e internacional",
-"Nuestra firma se ha posicionado en los más prestigiosos rankings internacionales como uno de los principales estudios del país gracias a la sólida experiencia de nuestros abogados, una marcada vocación de servicio y un fuerte compromiso con la calidad de nuestra labor.",
-   "Nuestra prioridad es entender en profundidad los negocios de nuestros clientes para ayudarlos en la generación de valor en sus compañías, a través de un servicio personalizado, ajustado a su perfil y necesidades. Con ese foco brindamos respuestas con un alto grado de especialización en las distintas áreas de práctica del Estudio.",
+
+   "Somos una firma de servicios legales que ofrece asesoramiento de calidad, enfocados especialmente hacia la empresa, y con particular apego por la eficiencia, el profesionalismo y la ética",
+"Trabajamos para generar valor a través de soluciones prácticas. Aprovechamos los avances tecnológicos sin descuidar el trato personal. Cultivamos el pensamiento colaborativo, que enrique nuestro servicio.",
+"En Hang Kuchen, Sporleder & Rodríguez Morales Abogados pretendemos convertirnos en socios de nuestros clientes.",
+
 	"Socios",
 	"Areas de Práctica",
 ];
 
 const eng = [
 	"About Us",
-   "Cerolini & Ferrari Abogados es una firma de servicios legales que ofrece asesoramiento de excelencia con el objetivo de brindar soluciones creativas e innovadoras frente a las necesidades de sus clientes a nivel local e internacional",
-   "Nuestra firma se ha posicionado en los más prestigiosos rankings internacionales como uno de los principales estudios del país gracias a la sólida experiencia de nuestros abogados, una marcada vocación de servicio y un fuerte compromiso con la calidad de nuestra labor.",
-      "Nuestra prioridad es entender en profundidad los negocios de nuestros clientes para ayudarlos en la generación de valor en sus compañías, a través de un servicio personalizado, ajustado a su perfil y necesidades. Con ese foco brindamos respuestas con un alto grado de especialización en las distintas áreas de práctica del Estudio.",
-	"Partners",
+   "We are a legal services firm that offers high quality advice, especially focused on the company, and with a particular attachment to efficiency, professionalism and ethics. We work to generate value through practical solutions. We take advantage of technological advances without neglecting personal treatment. We cultivate collaborative thinking, which enriches our service.",
+   "At Hang Kuchen, Sporleder & Rodríguez Morales Abogados we intend to become partners of our clients.",
+   	"Partners",
 	"Practice Areas",
 ];
 

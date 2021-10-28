@@ -1,6 +1,6 @@
 import s from "./index.module.scss";
 import React, { useRef, useState } from 'react';
-import SectionTitle from "../../components/UI/SectionTitle/SectionTitle";
+import ContactPeek from "../../components/ContactPeek/ContactPeek";
 import HeaderSub from "../../components/HeaderSub/HeaderSub"
 import Link from "next/link";
 import useAppContext from "../../Context/UseAppContext";
@@ -31,6 +31,8 @@ const ContactForm = () => {
 
 			<div className={s.title_container}>
          <h3 className={s.punch_line}>{lang=="ESP"?"Sumate a nuestro equipo":"Join Us"}</h3>
+         <h4>{lang=="ESP"?esp[0]:eng[0]}</h4>
+         <h5>{lang=="ESP"?esp[1]:eng[1]}</h5>
 			</div>
 			<div className={s.master_container}>
          {
@@ -65,6 +67,7 @@ const ContactForm = () => {
 			</div>
 			{/* <div>{backgorund}</div> */}
 		</div>
+      <ContactPeek/>
       <Footer/>
       </>
 	);
@@ -89,19 +92,17 @@ const backgorund = (
 );
 
 const esp = [
-	"Contactanos",
-	"Somos una firma de abogados jovenes y de amplia trayectoria. A través\
-  del pensamiento lateral buscamos soluciones alternativas a situaciones\
-  complejas.",
+	
+	"Buscamos talentos que deseen desarrollar su carrera dentro de Hang Kuchen, Sporleder & Rodríguez Morales Abogados",
+   "En HSR promovemos principalmente la incorporación de estudiantes universitarios y abogados recién recibidos. Esta incorporación temprana a la actividad profesional enriquece sus cualidades académicas y beneficia sus posibilidades de desarrollo mediante la asimilación de los conocimientos legales y el aprendizaje e incorporación de los principios y valores que constituyen el sello de calidad de nuestros abogados.",
 	"Socios",
 	"Areas de Práctica",
    "Volver al Inicio",
 ];
 
 const eng = [
-	"Contact Us",
-	"We are a law firm, of young people and recongized experience. Driven by out of the box solutions\
-   and lateral thinking we seek to brake down complexity into solutions ",
+   "We are looking for talents who wish to develop their career within Hang Kuchen, Sporleder & Rodríguez Morales Abogados",
+	"HSR promotes the incorporation of students into the firm through a consolidated system of internships. The early incorporation of students into our professional activity enriches their academic qualities and benefits their chances of development in Hang Kuchen, Sporleder & Rodríguez Morales through the assimilation of legal knowledge, principles and values which constitute our lawyers’ stamp of quality.",
 	"Partners",
 	"Practice Areas",
    "Back to Home Page",

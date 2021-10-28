@@ -42,18 +42,18 @@ const Form = ({text}) => {
       <>
                <div className={ss.back_to_home} onClick={goHome}>
 					<span>{miniLogo}</span>
-					<span className={ss.minilogo_names}>
+					{/* <span className={ss.minilogo_names}>
 						<div>HANG KUCHEN </div>
 						<div>SPORDELER <span> &</span> </div>
                   <div>RODRIGUEZ MORALES </div>
-					</span>
+					</span> */}
 				</div>
 
          {lang=="ESP"
                 ?
                 <div className={ss.container}>
                       {/* <div className={ss.link}><Link href="/">                  El Estudio</Link></div> */}
-                      <div className={ss.link}><Link href="/institucional">     Institucional</Link></div>
+                      <div className={ss.link}><Link href="/institucional">     La Firma</Link></div>
                       <div className={ss.link}><Link href="/areasDePractica">   Areas de Practica</Link></div>
                       <div className={ss.link}><Link href="/socios">            Socios</Link></div>
                       <div className={ss.link}><Link href="/novedades">         Novedades</Link></div>
@@ -63,11 +63,11 @@ const Form = ({text}) => {
                   :
                   <div className={ss.container}>
                       {/* <div className={ss.link}><Link href="/">                  Institutional</Link></div> */}
-                      <div className={ss.link}><Link href="/institutional">     Institucional</Link></div>
+                      <div className={ss.link}><Link href="/institutional">     The Firm</Link></div>
                       <div className={ss.link}><Link href="/areasDePractica">   Practice Areas</Link></div>
                       <div className={ss.link}><Link href="/socios">            Partners</Link></div>
-                      <div className={ss.link}><Link href="/novedades">         Latest News</Link></div>
-                      <div className={ss.link}><Link href="/carreras">          carrers</Link></div>
+                      <div className={ss.link}><Link href="/novedades">         News</Link></div>
+                      <div className={ss.link}><Link href="/carreras">          Carrers</Link></div>
                       <div className={ss.link}><Link href="/contacto">          Contact</Link></div>
                       </div>
                 } 

@@ -1,10 +1,10 @@
-import React from 'react';
+import React, {useRef} from 'react';
 import ss from './Header.module.scss'
 import { BrowserView, MobileView, isBrowser, isMobile } from 'react-device-detect';
 import YouTube from 'react-youtube';
 
 const Header = () => {
-
+   const videoParentRef = useRef();
    const opts = {
       height: '390',
       width: '640',
@@ -25,22 +25,36 @@ const Header = () => {
                :
                logoDesktop
                }
-               
-               
-
-         
+                        
             </div>
 
             <div className={ss.video_overlay}>
             </div>
             {/* <iframe width="100%" height="100%" 
                   src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1&modestbranding=1&autohide=1&showinfo=0&controls=0">
-               </iframe> */}
-             <video autoPlay loop muted className={ss.video} 
-
->
+               {/* </iframe> */}
+             {/* <video autoPlay loop muted className={ss.video} >
                <source src='./intro20.mp4' type='video/mp4' />
-            </video>
+            </video> */} 
+
+            <div
+      ref={videoParentRef}
+      dangerouslySetInnerHTML={{
+        __html: `
+        <video
+        width="100%"
+        height="100%"
+          loop
+          muted
+          autoplay
+          style="position:absolute;top:0;left:0;height:100%;object-fit:cover; z-index:1;"
+          preload="metadata"
+        >
+        <source src='./intro20.mp4'type="video/mp4" />
+        </video>`
+      }}
+    />
+
 
             {/* <YouTube videoId="deCFaF4TSOk?autoplay=1&mute=1&modestbranding=1&autohide=1&showinfo=0&controls=0" opts={opts}  />; */}
 

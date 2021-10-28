@@ -51,11 +51,11 @@ const Form = ({text}) => {
 
          <div className={s.back_to_home} onClick={goHome}>
 					<span>{miniLogo}</span>
-					<span className={s.minilogo_names}>
+					{/* <span className={s.minilogo_names}>
 						<div>HANG KUCHEN </div>
 						<div>SPORDELER <span> &</span> </div>
                   <div>RODRIGUEZ MORALES </div>
-					</span>
+					</span> */}
 				</div>
     
          
