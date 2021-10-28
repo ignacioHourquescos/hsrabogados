@@ -55,7 +55,7 @@ B) HOME Principal
 🟢Invertir lugar: poner primero "Areas de Práctica" y abajo "Socios". No funcionan los links (apretas socios y te lleva al Home).
 
 🟢C) Testimonios: Por favor modificar "Testimoniales" por "Testimonios" (en inglés: "Client Comments")
-   🟡Por favor no pongamos el nombre de la persona física que afirma eso de nosotros, sino el nombre de la empresa acompañado con el logo.
+   🟢or favor no pongamos el nombre de la persona física que afirma eso de nosotros, sino el nombre de la empresa acompañado con el logo.
    🟢El punto al lado de Testimonios no esta centrado. Ralentizar el carrousel donde giran los comentarios de los clientes.
 
 🟡D) En la sección novedades vamos a arrancar con cuatro cuyos texto les pasaremos en breve:
@@ -89,7 +89,7 @@ iv) Aviso en Apertura.
 🟢Por favor eliminar texto introductorio. Ver la forma de que en la versión escritorio los cuadros con cada novedad no queden tan grandes.
 🟢Fijense que en esta página (y en otras) no figura en la parte inferior "Contacto" y "Brochure".
 
-I) Carrera: Por favor incluir la posibilidad de adjuntar archivos (por si quieren enviar CV)
+🟢🟢I) Carrera: Por favor incluir la posibilidad de adjuntar archivos (por si quieren enviar CV)
 🟢Fijense que en esta página (y en otras) no figura en la parte inferior "Contacto" y "Brochure".
 
 🟢Incorporar el siguiente texto:

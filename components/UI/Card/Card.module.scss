@@ -38,11 +38,11 @@
        top: 2rem;
        left: 8%;
        font-family: $mainFont;
-       font-size: 1.3rem;
+       font-size: 1.1rem;
        text-transform: uppercase;
 
        @media #{$desktop} {
-          font-size: 1rem;
+          font-size: 0.9rem;
        }
     }
 
@@ -57,7 +57,7 @@
       right: 1.5rem;
 
       @media #{$desktop} {
-         font-size: 1rem;
+         font-size:0.8rem;
       }
    }
 

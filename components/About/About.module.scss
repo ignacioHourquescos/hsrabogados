@@ -150,10 +150,11 @@
 
 
    @media #{$desktop}{
+      display:block;
    position:absolute;
    top:-30%;
    left:-10%;
-   width:45%;
+   width:48%;
    height:150%;
    // background-color:$lightRed;
    background-image: linear-gradient(to bottom, $darkRed, rgb(248, 63, 63)); 

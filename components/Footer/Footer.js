@@ -34,7 +34,7 @@ export default function Footer() {
                 }<div className={ss.footer_social_container}>
                 <Link href="https://www.instagram.com">{IGLogo}</Link>
                 <Link href="https://ar.linkedin.com/company/hang-kuchen-sporleder-rodriguez-morales-abogados?trk=public_profile_topcard-current-company">{INLogo}</Link>
-
+              
                 </div>
 
                 <p>HSR Abogados © 2021</p>

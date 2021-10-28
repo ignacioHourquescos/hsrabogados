@@ -43,11 +43,12 @@ const ContactForm = () => {
             <input className={s.campo} type="text" name="user_name" />
             <label>Email</label>
             <input className={s.campo} type="email" name="user_email" />
-            {/* <label>Perfil</label>
-            <input type="file" name="my_file"/>  */}
+ 
           
             <label>{lang=="ESP"?"Contanos acerca de vos":"Tell us about yourself"}</label>
             <textarea className={s.campo2} name="message" />
+            <label style={{marginRight:"1rem"}}>{lang=="ESP"?"Adjuntar CV":"Attach CV"}</label>
+            <input style={{padding:"1rem 0"}} type="file" name="my_file"/> 
             <input className={s.enviar} type="submit" value={lang=="ESP"?"Enviar":"Send"} />
          </form>
          :

@@ -11,7 +11,7 @@ const Card = ({ title, content, masDetalle, slug, noticias }) => {
 		router.push(fullPath);
 	};
 
-   var maxLength = 160
+   var maxLength = 140
    var trimmedString = content.substr(0, maxLength);
 
 	return (

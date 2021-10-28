@@ -32,6 +32,14 @@ const About = () => {
 							{lang == "ESP" ? esp[6] : eng[6]}
 						</a>
 					</Link>
+               <a  className={s.subscribe} style={{color:"white"}}>
+							NewsLetter
+						</a>
+               <div className={s.newsletter_container}>
+               <input className={s.newsletter} type="email" name="user_email" placeholder={lang=="ESP"?"Ingrese su mail":"Enter your email"} />
+               <span>{lang=="ESP"?"Subscribimre":"Subscribe"}</span>
+               </div>
+
 			
 			</div>
 			{/* <div>{backgorund}</div> */}
