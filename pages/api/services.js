@@ -7,7 +7,7 @@ export default function getExpenses(req, res) {
 	if (lang == "ENG") { res.send(JSON.stringify([servicesEng, introEng])) }
 }
 
-//DATA EN ESPAÑOL - INTRODUCCION Y SERVICIOS
+//DATA EN ESPAÑOL - INTRODUCCION Y SERVICIOSs
 const intro = "El estudio esta enfocado en trabajar en las areas relacionadas con Lorem on Lorem ipsum dolor sit amet, pro ex modo veniam complectitur, ad sed alii enim explicari ipsumsdfsd  dolor sit amet, pro ex modo veniam complectitur, ad sed alii enim explicari"
 const services = [
 	{
