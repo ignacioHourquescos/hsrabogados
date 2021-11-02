@@ -40,83 +40,109 @@ const Socio = () => {
 
 			<HeaderSub titulo={socio} img="ofi5.jfif" />
 
-         <div className={s.main_container}>
-         <div className={s.image_container}>
- 
-         <Image className={s.image} src='/manfred.png'alt="socio" width="350px" height="350px"></Image>
-         <div className={s.contact_icons}>
-            <div>{linkedinLogo}</div>
-            <div>{linkedinLogo}</div>
-            <div>{linkedinLogo}</div>
-         </div>
-         </div>
-			<div className={s.container}>
-				{loading
-					? ""
-					: lang == "ESP"
-					? partnerData.text.map((element) => (
-							<p key={element} className={s.detail}>
-								{element}
-							</p>
-					  ))
-					: partnerData.textEng.map((element) => (
-							<p key={element} className={s.detail}>
-								{element}
-							</p>
-					  ))}
-				<h3>{lang == "ESP" ? "Informacion de Contacto" : "Contact"}</h3>
-				{loading
-					? ""
-					: partnerData.cont.map((element) => (
-							<p KEY={element} className={s.detail}>
-								{element}
-							</p>
-					  ))}
+			<div className={s.main_container}>
+				<div className={s.image_container}>
 
-				<h3>{lang == "ESP" ? "Experiencia Laboral" : "Work"}</h3>
-				{loading
-					? ""
-					: lang=="ESP"
-               ? partnerData.labo.map((element) => (
+					<Image className={s.image} src='/manfred.png' alt="socio" width="350px" height="350px"></Image>
+					<div className={s.contact_icons}>
+						<div>{linkedinLogo}</div>
+						<div>{linkedinLogo}</div>
+						<div>{linkedinLogo}</div>
+					</div>
+				</div>
+				<div className={s.container}>
+					{loading
+						? ""
+						: lang == "ESP"
+							? partnerData.text.map((element) => (
+								<p key={element} className={s.detail}>
+									{element}
+								</p>
+							))
+							: partnerData.textEng.map((element) => (
+								<p key={element} className={s.detail}>
+									{element}
+								</p>
+							))}
+					<h3>{lang == "ESP" ? "Informacion de Contacto" : "Contact"}</h3>
+					{loading
+						? ""
+						: partnerData.cont.map((element) => (
 							<p KEY={element} className={s.detail}>
 								{element}
 							</p>
-					  ))
-               :
-               partnerData.laboIngles.map((element) => (
-							<p KEY={element} className={s.detail}>
-								{element}
-							</p>
-					  ))
-                 }
+						))}
 
 
 
-				<h3>{lang == "ESP" ? "Experiencia Academica" : "Academic"}</h3>
-				{loading
-					? ""
-					: partnerData.acad.map((element) => (
+					<h3>{lang == "ESP" ? "Posicion Actual" : "Current Position"}</h3>
+					{loading
+						? ""
+						: lang == "ESP"
+							? partnerData.posicion.map((element) => (
+								<p KEY={element} className={s.detail}>
+									{element}
+								</p>
+							))
+							:
+							partnerData.posicionEng.map((element) => (
+								<p KEY={element} className={s.detail}>
+									{element}
+								</p>
+							))
+					}
+
+
+
+
+					<h3>{lang == "ESP" ? "Experiencia Laboral" : "Professional Background"}</h3>
+					{loading
+						? ""
+						: lang == "ESP"
+							? partnerData.labo.map((element) => (
+								<p KEY={element} className={s.detail}>
+									{element}
+								</p>
+							))
+							:
+							partnerData.laboIngles.map((element) => (
+								<p KEY={element} className={s.detail}>
+									{element}
+								</p>
+							))
+					}
+
+
+
+					<h3>{lang == "ESP" ? "Experiencia Academica" : "Studies Completed"}</h3>
+					{loading
+						? ""
+						: partnerData.acad.map((element) => (
 							<p KEY={element} className={s.detail}>
 								{element}
 							</p>
-					  ))}
-				<h3>{lang == "ESP" ? "Idiomas" : "Languages"}</h3>
-				{loading
-					? ""
-					: lang == "ESP"
-					? partnerData.idio.map((element) => (
-							<p KEY={element} className={s.detail}>
-								{element}
-							</p>
-					  ))
-					: partnerData.idioEng.map((element) => (
-							<p KEY={element} className={s.detail}>
-								{element}
-							</p>
-					  ))}
+						))}
+
+
+
+						
+					<h3>{lang == "ESP" ? "Idiomas" : "Languages"}</h3>
+					{loading
+						? ""
+						: lang == "ESP"
+							? partnerData.idio.map((element) => (
+								<p KEY={element} className={s.detail}>
+									{element}
+								</p>
+							))
+							: partnerData.idioEng.map((element) => (
+								<p KEY={element} className={s.detail}>
+									{element}
+								</p>
+							))}
+				</div>
 			</div>
-         </div>
-         <ContactPeek/>
+			<ContactPeek />
 			<Footer></Footer>
 		</>
 	);

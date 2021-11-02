@@ -44,6 +44,7 @@ const Block = () => {
 
 const partners = [
    {
+      
       name: "MANFRED",
       lastname:"HANG KUCHEN",
       bio:"Abogado graduado de la Universidad Católica Argentina (UCA), cuenta con una Maestría en Derecho Empresario de la Universidad de San Andrés (UdeSA) y un Posgrado en Asesoramiento Jurídico de Empresas de la Universidad Católica Argentina ...",
@@ -52,7 +53,7 @@ const partners = [
    },
    {
       name: "GUILLERMO",
-      lastname:"SPORDELER",
+      lastname:"SPORLEDER",
       bio:"Abogado egresado de la Universidad de Buenos Aires (UBA), cuenta con un Posgrado de Especialización en Derecho Laboral y Relaciones Internacionales del Trabajo de la Universidad Católica Argentina (UCA) y una Maestría en Derecho ... ",
       bioIngles:"Guillermo is a lawyer graduated from the University of Buenos Aires (UBA), has a Postgraduate Specialization in Labor Law and International Labor Relations from the Argentine Catholic University (UCA) and a  ... ",
       
