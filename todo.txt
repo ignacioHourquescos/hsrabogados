@@ -1,3 +1,27 @@
+🟡D) En la sección novedades vamos a arrancar con cuatro cuyos texto les pasaremos en breve:
+i) Alerta Normativa de Guille.
+ii ) Operación de CompraVenta Distrisam.
+iii) Art. Sebas: Regulación del juego.
+iv) Aviso en Apertura.
+
+areas de pracitca
+
+socios
+
+--------------------------
+El "efecto" sobre las palabras "socios" y "areas de práctica" no funciona en la versión celular.
+
+Socios: Los recuadros con los nombres tienen distinto tamaño. En un correo independiente les vamos a enviar fotos actualizadas de nosotros tres. Son las que estan en nuestro perfil personal de Linkedin.
+
+Finalmente en algún lugar (quizás en la parte de abajo junto a contacto), deberia incluirse la posibilidad de "adherirse" a nuestro newsletter. Por favor copiar el esquema de Cerolini:
+
+Video de Iphones
+
+
+
+
+
+
 
 ==>MAQUETEADO
 ⚪Armar Footer
@@ -51,18 +75,14 @@ B) HOME Principal
    alternativas a situaciones complejas", por la siguiente: "Desarrollamos relaciones de largo plazo con nuestros clientes,
    prestando un asesoramiento jurídico ágil y comprometido" (En inglés: "We develop long-term relationships with our clients, providing agile and committed legal services")
 
-🟡 El "efecto" sobre las palabras "socios" y "areas de práctica" no funciona en la versión celular.
+
 🟢Invertir lugar: poner primero "Areas de Práctica" y abajo "Socios". No funcionan los links (apretas socios y te lleva al Home).
 
 🟢C) Testimonios: Por favor modificar "Testimoniales" por "Testimonios" (en inglés: "Client Comments")
    🟢or favor no pongamos el nombre de la persona física que afirma eso de nosotros, sino el nombre de la empresa acompañado con el logo.
    🟢El punto al lado de Testimonios no esta centrado. Ralentizar el carrousel donde giran los comentarios de los clientes.
 
-🟡D) En la sección novedades vamos a arrancar con cuatro cuyos texto les pasaremos en breve:
-i) Alerta Normativa de Guille.
-ii ) Operación de CompraVenta Distrisam.
-iii) Art. Sebas: Regulación del juego.
-iv) Aviso en Apertura.
+
 
 🟢E) Institucional (La Firma): Las rayas de contacto y brochure tapan las letras en la versión escritorio.
 
@@ -79,7 +99,6 @@ iv) Aviso en Apertura.
 🟢F) Areas de Práctica: Las rayas de contacto y brochure tapan las letras en la versión escritorio.
 🟢Por favor eliminar texto introductorio. Ver la forma de que en la versión escritorio los cuadros con cada area de práctica no queden tan grandes.
 
-🟡G) Socios: Los recuadros con los nombres tienen distinto tamaño. En un correo independiente les vamos a enviar fotos actualizadas de nosotros tres. Son las que estan en nuestro perfil personal de Linkedin.
 
 🟢Por favor eliminar la foto que pusieron el el header que se ven los aires acondicionados que cuelgan del edificio!
 🟢Fijense que en esta página (y en otras) no figura en la parte inferior "Contacto" y "Brochure".
@@ -100,7 +119,6 @@ iv) Aviso en Apertura.
 🟢We are looking for talents who wish to develop their career within Hang Kuchen, Sporleder & Rodríguez Morales Abogados 
 🟢HSR promotes the incorporation of students into the firm through a consolidated system of internships. The early incorporation of students into our professional activity enriches their academic qualities and benefits their chances of development in Hang Kuchen, Sporleder & Rodríguez Morales through the assimilation of legal knowledge, principles and values which constitute our lawyers’ stamp of quality.
 
-J) Finalmente en algún lugar (quizás en la parte de abajo junto a contacto), deberia incluirse la posibilidad de "adherirse" a nuestro newsletter. Por favor copiar el esquema de Cerolini:
 
 
 
@@ -143,7 +161,4 @@ foto de socio). A su vez, en la versión web nos gustaría que un socio aparezca
 (y no uno arriba de otro).
 
 
-HOME
-🟡HEADER - cambiar felacj al medioa
-🟡ABOUT  ha
 
