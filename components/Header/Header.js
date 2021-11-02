@@ -45,10 +45,12 @@ const Header = () => {
         width="100%"
         height="100%"
           loop
+          playsinline
           muted
           autoplay
           style="position:absolute;top:0;left:0;height:100%;object-fit:cover; z-index:1;"
           preload="metadata"
+          poster="./poster.png"
         >
         <source src='./intro20.mp4'type="video/mp4" />
         </video>`

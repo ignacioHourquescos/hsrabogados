@@ -99,7 +99,9 @@ export async function getStaticProps({ params }) {
 		"fields.slug": params.slug,
 	});
 	return {
-		props: { noticia: items[0] },
+		props: {
+          noticia: items[0] 
+         },
 	};
 }
 

@@ -3,13 +3,17 @@ import SectionTitle from "../UI/SectionTitle/SectionTitle";
 import Button from "../UI/Button/Button";
 import Link from "next/link";
 import useAppContext from "../../Context/UseAppContext";
+import Image from 'next/Image'
 
 const About = () => {
 	const { lang } = useAppContext();
 
 	return (
 		<div className={s.general_container}>
-            <div className={s.overlay}></div>
+            <div className={s.overlay}>
+            <Image className={s.image} src='/ofi1.jpg'alt="socio" layout="fill"></Image>
+
+            </div>
 			<div className={s.title_container}>
 				<SectionTitle color="white">{lang == "ESP" ? esp[0] : eng[0]}</SectionTitle>
 			</div>
