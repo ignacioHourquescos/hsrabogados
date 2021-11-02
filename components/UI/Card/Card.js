@@ -4,7 +4,7 @@ import "animate.css/animate.min.css";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-const Card = ({ title, content, masDetalle, slug, noticias }) => {
+const Card = ({ title, content, masDetalle, slug, noticias, trim }) => {
 	const router = useRouter();
 	const goToNoticia = () => {
 		const fullPath = `/novedades/${slug}`;
@@ -23,7 +23,7 @@ const Card = ({ title, content, masDetalle, slug, noticias }) => {
 			>
 				<div className={s.news_bookmark}></div>
 				<div className={s.news_title}>{title}</div>
-				<div className={s.news_content}>{trimmedString.substr(0, Math.min(trimmedString.length, trimmedString.lastIndexOf(" ")))}...</div>
+				<div className={s.news_content}>{trim?trimmedString.substr(0, Math.min(trimmedString.length, trimmedString.lastIndexOf(" "))):content}...</div>
 				{masDetalle ? (
 					<div className={s.news_detail} onClick={goToNoticia}>
 						MAS DETALLE

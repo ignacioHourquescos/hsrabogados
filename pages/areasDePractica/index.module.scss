@@ -1,7 +1,7 @@
 @import "../../styles/constants.scss";
 
 .container {
-	@extend .master_container;
+	// @extend .master_container;
 
 	// background-image: none;
 	// background-color: $darkRed;
@@ -13,7 +13,7 @@
 	flex-direction: column;
    justify-content: flex-start;
 	color: white;
-   height:100%;
+   // height:100%;
    padding:10% 5%;
    
 	// height: 100%;
@@ -22,6 +22,7 @@
 		flex-wrap: wrap;
 		justify-items: flex-start;
       padding:5% 0;
+ 
 	}
 
 	.intro {
@@ -80,4 +81,40 @@
   
    text-align:center;
    margin-bottom:1rem;
+}
+
+.container_card{
+   border:1px solid black;
+   margin:1rem;
+   padding:1rem;
+
+   position:relative;
+   color:$black;
+
+   @media #{$desktop} {
+      padding-left:3rem;
+      margin:1rem 10%;
+   }
+   .news_title{
+      font-weight: bold;
+      margin-bottom:1rem;
+   }
+   .news_content{
+   color:grey;
+   font-size:0.7rem;
+   margin-bottom:1rem;
+   @media #{$desktop} {
+      font-size:1rem;
+   }
+   
+   }
+   .news_bookmark {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      background-color: $darkRed;
+      width: 2%;
+      height: 100%;
+   }
+
 }

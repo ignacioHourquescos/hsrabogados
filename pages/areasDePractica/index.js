@@ -61,13 +61,16 @@ const showDetailHandler = () => {
                   <div className={s.min_title} onClick={()=>setShowDetail(false)}>{element.title} <span>+</span></div>
                   :
                   
-					   <Card
-						   key={element.id}
-						   title={element.title}
-						   content={element.content}
-						   masDetalle={false}
-					   />
                   
+		
+                  <div className={s.container_card}>
+
+				<div className={s.news_bookmark}></div>
+				<div className={s.news_title}>{element.title}</div>
+				<div className={s.news_content}>{element.content}</div>
+	
+			
+		</div>
 
 
                }
