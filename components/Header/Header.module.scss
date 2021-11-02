@@ -89,15 +89,16 @@
 //ARROWS GOING DOWN
 .bounce{
    position: absolute;
-   bottom: 2rem;
-   right:0.6rem;
+   bottom: 8rem;
+   right:calc(50% - 18px);
    -moz-animation: bounce 3s infinite;
    -webkit-animation: bounce 3s infinite;
    animation: bounce 3s infinite;
    z-index:100;
 
    @media #{$desktop} {
-     right:2rem;
+     right:50%;
+     bottom: 6rem;
      }
 }
 
@@ -116,18 +117,21 @@
 .m_scroll_arrows
 {
  display: block;
- width: 8px;
- height: 8px;
+ width: 6px;
+ height: 6px;
  -ms-transform: rotate(45deg); /* IE 9 */
  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
  transform: rotate(45deg);
-  
  border-right: 4px solid rgba(255, 255, 255, 0.8);
  border-bottom: 4px solid rgba(255, 255, 255, 0.9);
  margin: 0 0 3px 4px;
  
- width: 15px;
- height: 15px;
+ width: 25px;
+ height: 25px;
+ @media #{$desktop} {
+   width: 35px;
+ height: 35px;
+   }
 
 }
 

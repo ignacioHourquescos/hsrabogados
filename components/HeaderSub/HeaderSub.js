@@ -6,6 +6,7 @@ import s from './HeaderSub.module.scss'
 
    
 			<div className={s.container} style={{ backgroundImage: `url("/${img}")`}}>
+         
          <div className={s.overlay}></div>
 				{/* <div className={s.back_to_home}>
 					<span>{miniLogo}</span>
