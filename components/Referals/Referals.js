@@ -4,7 +4,7 @@ import { Carousel } from "antd";
 import ss from "./Carrousel.module.scss";
 import SectionTitle from "../UI/SectionTitle/SectionTitle";
 import useAppContext from '../../Context/UseAppContext';
-import Image from 'next/Image'
+import Image from 'next/image'
 
 
 
