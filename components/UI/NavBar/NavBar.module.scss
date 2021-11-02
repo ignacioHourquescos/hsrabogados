@@ -19,6 +19,7 @@
    align-content: flex-end;
    align-items:baseline;
 
+
    :hover{
       // border-bottom: 1px solid $gold;
       cursor:pointer;
@@ -36,13 +37,13 @@
       color: inherit;
       a{
          color:$mainFont;
-         font-size: 1.1rem;
+         font-size: 1.3rem;
          text-decoration:none;
          padding:0 1rem;
          margin:0;
          padding:0;
          color:white;
-         font-weight: 200;
+         font-weight: 300;
      }
 
 

@@ -245,6 +245,6 @@ const arrowDown =  <div className={ss.mouse_scroll}>
 <div>
    <span className={`${ss.m_scroll_arrows} ${ss.unu}`}></span>
    <span className={`${ss.m_scroll_arrows} ${ss.doi}`}></span>
-   <span className={`${ss.m_scroll_arrows} ${ss.trei}`}></span>
+   {/* <span className={`${ss.m_scroll_arrows} ${ss.trei}`}></span> */}
 </div>
 </div>

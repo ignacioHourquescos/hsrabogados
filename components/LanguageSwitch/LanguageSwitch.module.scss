@@ -18,9 +18,10 @@
       
       @media #{$desktop} {
          transform: rotate(0deg);
-      
+         font-weight: bold;
+        
          right: 2rem;
-         top:1rem;
+         top:1.5rem;
         }
    }
 

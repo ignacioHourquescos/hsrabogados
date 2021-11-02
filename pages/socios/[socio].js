@@ -43,7 +43,7 @@ const Socio = () => {
 			<div className={s.main_container}>
 				<div className={s.image_container}>
 
-					<Image className={s.image} src='/manfred.png' alt="socio" width="350px" height="350px"></Image>
+					<Image className={s.image} src={socio=="HANG KUCHEN"?'/manfred.png':socio=="SPORLEDER"?'/guillermo.png':'/sebastian.png'} alt="socio" width="350px" height="350px"></Image>
 					<div className={s.contact_icons}>
 						<div>{linkedinLogo}</div>
 						<div>{linkedinLogo}</div>

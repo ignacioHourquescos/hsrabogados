@@ -3,7 +3,7 @@ import SectionTitle from "../UI/SectionTitle/SectionTitle";
 import Button from "../UI/Button/Button";
 import Link from "next/link";
 import useAppContext from "../../Context/UseAppContext";
-import Image from 'next/Image'
+import Image from 'next/image'
 
 const About = () => {
 	const { lang } = useAppContext();
