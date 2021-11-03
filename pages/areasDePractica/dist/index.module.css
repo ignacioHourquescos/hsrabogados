@@ -61,6 +61,7 @@
   justify-content: flex-start;
   color: white;
   padding: 10% 5%;
+  border: none;
 }
 @media only screen and (min-width : 801px) {
   .container {
@@ -68,73 +69,62 @@
     flex-wrap: wrap;
     justify-items: flex-start;
     padding: 5% 0;
-  }
-}
-.container .intro {
-  font-family: "Raleway", sans-serif;
-  margin-bottom: 3rem;
-  color: #01111f;
-}
-@media only screen and (min-width : 801px) {
-  .container .intro {
-    width: 80%;
-    margin: 5% 10%;
-    padding: 0 10%;
-    font-size: 1.5rem;
+    background-color: transparent !important;
   }
 }
 .container .card_container {
-  background-image: none;
+  background-color: transparent;
   width: 100%;
   z-index: 1;
   display: flex;
   justify-content: center;
   flex-direction: column;
   color: white;
+  border: none;
 }
 @media only screen and (min-width : 801px) {
   .container .card_container {
-    width: 80%;
-    margin: 0 10%;
+    width: 60%;
+    margin: 0 auto;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     justify-items: center;
+    border: none;
   }
 }
 .container .card_container .min_title {
   color: #01111f;
   border: 1px solid #f3f3f3;
-  padding: 1rem;
   margin-bottom: 1rem;
   border-left: 10px solid #AF1B26;
-  position: relative;
+}
+@media only screen and (min-width : 801px) {
+  .container .card_container .min_title {
+    margin: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
 }
 .container .card_container .min_title span {
-  position: absolute;
   right: 1rem;
   font-weight: bold;
-}
-
-.intro {
-  margin-top: 0rem;
-  font-size: 1.1rem;
-  color: #01111f;
-  font-family: "Raleway", sans-serif;
-  letter-spacing: 0rem;
-  text-align: center;
-  margin-bottom: 1rem;
+  margin: 0;
+  padding: 0;
 }
 
 .container_card {
-  background-color: transparent;
   position: relative;
   color: #01111f;
 }
 @media only screen and (min-width : 801px) {
   .container_card {
     padding-left: 3rem;
-    margin: 1rem 10%;
+    padding: 1rem;
   }
 }
 .container_card .news_title {
@@ -145,7 +135,6 @@
   color: grey;
   font-size: 0.7rem;
   margin-bottom: 1rem;
-  background-color: transparent !important;
 }
 @media only screen and (min-width : 801px) {
   .container_card .news_content {
@@ -164,6 +153,18 @@
 .collapse_container {
   margin: 0 !important;
   padding: 0 !important;
-  background-color: transparent;
+  background-color: transparent !important;
   border: none;
+  width: 100%;
+}
+
+.ant-collapse-content-box {
+  padding: 0;
+  margin: 0;
+}
+
+.content_element {
+  background-color: transparent;
+  margin: 0 !important;
+  padding: 0 !important;
 }

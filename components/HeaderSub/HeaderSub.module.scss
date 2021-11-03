@@ -15,9 +15,11 @@
    height:25vh;
 
         @media #{$desktop} {
-        padding-left:10%;
+      //   padding-left:10%;
         background-position: 50%;
         height:30vh;
+        align-items: center;
+        align-content: center;
       }
 
 
@@ -62,7 +64,7 @@
          font-size:1.4rem;
          color:white;
          @media #{$desktop} {
-            font-size:2rem;
+            font-size:2.3rem;
           }
     
       }

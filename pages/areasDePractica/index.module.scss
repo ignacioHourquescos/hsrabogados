@@ -15,95 +15,102 @@
 	color: white;
    // height:100%;
    padding:10% 5%;
-   
+   border: none;
 	// height: 100%;
 	@media #{$desktop} {
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-items: flex-start;
       padding:5% 0;
+      background-color:transparent !important;
  
 	}
 
-	.intro {
-		font-family: $secondaryFont;
-		margin-bottom: 3rem;
-      color:$black;
-		@media #{$desktop} {
-         width:80%;
-         margin:5% 10%;
-			padding: 0 10%;
-			font-size: 1.5rem;
-		}
-	}
+
 	.card_container {
-		background-image: none;
-		// background-color: $darkRed;
+
+		background-color: transparent;
 		width: 100%;
 		z-index: 1;
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
 		color: white;
+      border: none;
+      // background-color:transparent !important;
 	
 		@media #{$desktop} {
-         width:80%;
-         margin:0 10%;
+         width:60%;
+         margin:0 auto;
 			flex-direction: row;
 			flex-wrap: wrap;
 			justify-content: center;
          justify-items: center;
+         border: none;
+         // background-color:transparent !important;
 		}
 		.min_title {
 			color: $black;
 			border: 1px solid $white;
-			padding: 1rem;
+			// padding: 1rem;
 			margin-bottom: 1rem;
 			border-left: 10px solid $darkRed;
-			position: relative;
+         // background-color: transparent !important;
+			// position: relative;
+         
+         @media #{$desktop} {
+            // width:70%;
+            margin:0 ;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            justify-items: center;
+            font-size:1.5rem;
+            margin-bottom:2rem;
+            // background-color:transparent !important;
+         }
+         
 			span {
-				position: absolute;
+				// position: absolute;
+            // background-color:transparent !important;
 				right: 1rem;
 				font-weight: bold;
+            margin: 0;
+            padding:0;
 			}
+
+
 		}
 	}
 }
 
 
 
-.intro{
-   margin-top:0rem;
-   font-size: 1.1rem;
-   color: $black;
-   font-family:$secondaryFont;
-   letter-spacing:0rem;
-  
-   text-align:center;
-   margin-bottom:1rem;
-}
+
 
 .container_card{
    // border:1px solid black;
    // margin:1rem;
    // padding:1rem;
-   background-color: transparent;
+   // background-color: transparent !important;
    position:relative;
    color:$black;
 
    @media #{$desktop} {
       padding-left:3rem;
-      margin:1rem 10%;
+      // background-color:rgb(204, 204, 204)!important;
+      padding:1rem;
    }
    .news_title{
       font-weight: bold;
+      // background-color:transparent !important;
       margin-bottom:1rem;
    }
    .news_content{
    color:grey;
    font-size:0.7rem;
    margin-bottom:1rem;
-   background-color: transparent !important;
+   //  background-color: red!important;
    @media #{$desktop} {
       font-size:1rem;
    }
@@ -111,6 +118,7 @@
    }
    .news_bookmark {
       position: absolute;
+      // background-color:transparent !important;
       top: 0px;
       left: 0px;
       background-color: $darkRed;
@@ -123,6 +131,20 @@
 .collapse_container{
    margin:0 !important;
    padding:0 !important;
-   background-color:transparent;
+   background-color:transparent !important;
    border:none;
+   width:100%;
+}
+
+.ant-collapse-content-box{
+   // background-color: none !important;
+   padding:0;
+   margin:0;
+}
+
+.content_element{
+   background-color: transparent;
+   margin:0 !important;
+   padding:0 !important;
+   
 }

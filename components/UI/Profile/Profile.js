@@ -35,7 +35,7 @@ const Profile = ({name, lastname, bio, img}) => {
 
 			<div className={s.partner_bio}>
          {bio}
-         <button className={s.button_secondary} onClick={pushPartner}>MAS DETALLE</button>
+         <button className={s.button_secondary} onClick={pushPartner}>{lang=="ESP"?"MAS DETALLE":"MORE DETAIL"}</button>
 			</div>
          
 		</div>
