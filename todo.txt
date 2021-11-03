@@ -183,8 +183,9 @@ CMC DI RAVENNA
 DURACELL
 Debieran encontrar los logos de las cinco empresas en google. Cualquier cosa me avisan y les paso
 
-🟢1. Aclarar header negro y achicar footer conforme lo hablado.
-🟢2. Nosotros: Incluir punto al final de la frase de sección "NOSOTROS"
+/////////////////////////////////////////////////////////////////////////
+1. Aclarar header negro y achicar footer conforme lo hablado. 
+2. Nosotros: Incluir punto al final de la frase de sección "NOSOTROS"
 🟢3. Dentro de la sección "Socios" el "mas detalle" no funciona
 4. Novedades: Siempre que en los textos o titulares se mencione HSR Abogados o Hang Kuchen, Sporleder & Rodríguez Morales ABogados deben estar en negrita
 5. En sección "La Firma": centrar texto
@@ -192,16 +193,15 @@ Debieran encontrar los logos de las cinco empresas en google. Cualquier cosa me 
 7. En sección novedades no numerarlas. Es decir, que no figure “asesoramiento 2” solo “asesoramiento” en cada tarjeta
 8. En la versión celular, en la sección áreas de práctica, cuando se agranda una de las tarjetas se agrandan todo el resto. Debiera ser individual
 9. En la versión en inglés los comentarios están en castellano. También el “más detalles” está en castellano
-Seria carrera y Carrer
+10. Seria carrera y Carrer
+11. La firma / institucional 
+12. newsletter algo en mayuscula
+13. Fotos
 
-La firma / institucional 
+13. agrandar teccto cards mobile
+14. contentful
+15. CV - que se mande como contacto
 
-newsletter algo en mayuscula
 
-agrandar teccto cards mobile
-
-navbar no tan negro
-
-lo cambiamos
-
-testmioninos - Di ravenna
+16. Brochure
+17. Newsletter que advances
