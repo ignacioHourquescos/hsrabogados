@@ -31,7 +31,7 @@
   position: absolute;
   content: "";
   height: 8px;
-  bottom: 0px;
+  bottom: -3px;
   margin: 0;
   left: 0;
   width: 70px;
@@ -65,9 +65,10 @@
 }
 @media only screen and (min-width : 801px) {
   .container {
-    padding-left: 10%;
     background-position: 50%;
     height: 30vh;
+    align-items: center;
+    align-content: center;
   }
 }
 .container .overlay {
@@ -110,6 +111,6 @@
 }
 @media only screen and (min-width : 801px) {
   .container .headersub_title h1 {
-    font-size: 2rem;
+    font-size: 2.3rem;
   }
 }

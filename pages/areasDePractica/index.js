@@ -82,28 +82,28 @@ const showDetailHandler = () => {
                    services[0].map((element) => (
 								<>
 									{showDetail && isMobile ? 
-                              <Collapse className={s.collapse_container}>
-                                 <Panel  className={s.min_title} header={element.title} key={element.id}>
+                              <Collapse className={s.collapse_container} key={element.id}>
+                                 <Panel  header={element.title}  className={s.min_title} key={element.id}>
+										   {/* <div className={s.min_title} onClick={() => setShowDetail(false)}>
+											   {element.title} <span>+</span>
+										   </div> */}
+                                    {/* <div className={s.container_card}> */}
+										      	{/* <div className={s.news_bookmark}></div>
+										      	<div className={s.news_title}>{element.title}</div> */}
+										      	<p className={s.content_element}>{element.content}</p>
+										      {/* </div> */}
+                                 </Panel>
+                              </Collapse>
+									 : 
+					
+                            <Collapse className={s.collapse_container}>
+                                 <Panel className={s.min_title} header={element.title} key={element.id}>
 										   {/* <div className={s.min_title} onClick={() => setShowDetail(false)}>
 											   {element.title} <span>+</span>
 										   </div> */}
                                     <div className={s.container_card}>
 										      	{/* <div className={s.news_bookmark}></div>
 										      	<div className={s.news_title}>{element.title}</div> */}
-										      	<div className={s.news_content}>{element.content}</div>
-										      </div>
-                                 </Panel>
-                              </Collapse>
-									 : 
-					
-                            <Collapse  >
-                                 <Panel className={s.min_title} header={element.title} key={element.id}>
-										   {/* <div className={s.min_title} onClick={() => setShowDetail(false)}>
-											   {element.title} <span>+</span>
-										   </div> */}
-                                    <div className={s.container_card}>
-										      	<div className={s.news_bookmark}></div>
-										      	<div className={s.news_title}>{element.title}</div>
 										      	<div className={s.news_content}>{element.content}</div>
 										      </div>
                                  </Panel>
