@@ -59,7 +59,7 @@
 			border: 1px solid $white;
 			padding: 1rem;
 			margin-bottom: 1rem;
-			border-left: 10px solid $black;
+			border-left: 10px solid $darkRed;
 			position: relative;
 			span {
 				position: absolute;
@@ -84,10 +84,10 @@
 }
 
 .container_card{
-   border:1px solid black;
-   margin:1rem;
-   padding:1rem;
-
+   // border:1px solid black;
+   // margin:1rem;
+   // padding:1rem;
+   background-color: transparent;
    position:relative;
    color:$black;
 
@@ -103,6 +103,7 @@
    color:grey;
    font-size:0.7rem;
    margin-bottom:1rem;
+   background-color: transparent !important;
    @media #{$desktop} {
       font-size:1rem;
    }
@@ -117,4 +118,11 @@
       height: 100%;
    }
 
+}
+
+.collapse_container{
+   margin:0 !important;
+   padding:0 !important;
+   background-color:transparent;
+   border:none;
 }

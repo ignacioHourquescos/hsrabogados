@@ -11,28 +11,34 @@ export default function getExpenses(req, res) {
 const intro = "El estudio esta enfocado en trabajar en las areas relacionadas con Lorem on Lorem ipsum dolor sit amet, pro ex modo veniam complectitur, ad sed alii enim explicari ipsumsdfsd  dolor sit amet, pro ex modo veniam complectitur, ad sed alii enim explicari"
 const services = [
 	{
+      id:1,
 		title: "DERECHO SOCIETARIO",
 		content:
 			"Asesoramos a nuestros clientes en la creación de nuevas estructuras, due diligence, convenios de accionistas, reorganizaciones, resolución de conflictos societarios, inscripciones y registros societarios, y todas las cuestiones relacionadas con el día a día.",
 	},
 	{
+      id:2,
 		title: "TELECOMUNICACIONES MEDIOS Y TECNOLOGIA",
 		content:
 			"La industria de los medios y el entretenimiento, por su parte, se enfrenta a cambios radicales, principalmente a través del desarrollo de nuevas plataformas y tecnologías. El asesoramiento incluye complejos proyectos de infraestructura, como la instalación de cables submarinos; la obtención de licencias de telecomunicaciones para los distintos servicios; y el análisis de servicios innovadores a la luz de las normas de telecomunicaciones. ",
 	},
 	{
+      id:3,
 		title: "LITIGIOS Y RESOLUCION DE CONTROVERSIAS",
 		content: "Nuestra experiencia en litigios cubre una completa gama en asuntos contenciosos, lo que incluye el trabajo de asesoría, negociación y presentaciones durante todo el proceso. Representamos a clientes locales y extranjeros ante los tribunales federales de la Ciudad de Buenos Aires y de los estados provinciales –incluida la Corte Suprema– en juicios civiles, comerciales, impositivos, laborales y acciones colectivas. Asimismo, actuamos ante diversos organismos del Estado nacional, provincial o municipal (Banco Central, Defensa del Consumidor, Tribunal Fiscal de la Nación, entre otros)",
 	},
 	{
+      id:4,
 		title: "DERECHO LABORAL",
 		content: "Nuestra área de derecho laboral brinda una amplia gama de servicios que incluye: (i) la negociación y redacción de contratos de trabajo, convenios colectivos, planes de seguridad social, acuerdos de extinción de la relación laboral y documentos relacionados con la seguridad en el trabajo; (ii) la confección y modificación de estructuras compensatorias; (iii) la adaptación de políticas internacionales a la ley argentina; (iv) reorganizaciones y reestructuraciones, despidos masivos, planes de retiro voluntario, programas preventivos de crisis y negociaciones en todos los ámbitos para instrumentar las reorganizaciones; y(v) desvinculaciones de funcionarios jerárquicos y participación en auditorias de empresa en los casos de fraude empresario.",
 	},
 	{
+      id:5,
 		title: "IMPUESTOS Y COMERCIO EXTERIOR",
 		content: "Jugamos un papel importante en la planificación fiscal y la negociación de muchas operaciones de fusiones y adquisiciones y otras transacciones transfronterizas, así como en el diseño e implementación de reorganizaciones societarias y transferencias de activos libres de impuestos. Asesoramos también a nuestros clientes en todo tipo de asuntos aduaneros, en muchos casos en forma coordinada con nuestros expertos en Comercio Internacional, incluyendo cuestiones regulatorias, representación de clientes en procedimientos administrativos y judiciales, planificación estratégica de operaciones, asesoramiento sobre regulaciones nacionales y tratados internacionales, cuestiones arancelarias y barreras a la importación.",
 	},
 	{
+      id:6,
 		title: "DERECHO PUBLICO Y ADMINISTRATIVO",
 		content: "Brindamos asesoramiento en una amplia gama de cuestiones: (i) Estructuras legales complejas vinculadas con actividades reguladas: empresas prestadoras de servicios públicos, puertos, autopistas, aeropuertos, bancos, aseguradoras, industria hidrocarburífera, salud, agroindustria y proveedores de bienes y servicios del Estado; (ii) Obras públicas, proyectos de infraestructura, financiación de proyectos y asociaciones público-privadas; (iii) Compañías privadas con intervención estatal o con participación accionaria estatal; y (iv) Contratos administrativos y procedimientos de selección de contratistas.",
 	},

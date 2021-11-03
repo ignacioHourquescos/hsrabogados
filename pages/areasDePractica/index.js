@@ -7,6 +7,10 @@ import Footer from "../../components/Footer/Footer";
 import useAppContext from '../../Context/UseAppContext';
 import { BrowserView, MobileView, isBrowser, isMobile } from 'react-device-detect';
 import ContactPeek from '../../components/ContactPeek/ContactPeek'
+import {Collapse} from 'antd';
+import 'antd/dist/antd.css';
+
+const { Panel } = Collapse;
 
 const Block = () => {
 
@@ -44,42 +48,75 @@ const showDetailHandler = () => {
 				<meta property="og:image" content="/logo.jpg" />
 			</Head>
 
-        
-         <HeaderSub titulo={lang=="ESP"?"AREAS DE PRACTICA":"PRACTICE AREAS"} img="ofi1.jpg" />
-        
-			
+			<HeaderSub
+				titulo={lang == "ESP" ? "AREAS DE PRACTICA" : "PRACTICE AREAS"}
+				img="ofi1.jpg"
+			/>
 
 			<div className={s.container}>
-				{/* <div className={s.intro}>
-            {loading?"":services[1]}
+
+				{/* <div className={s.card_container}>
+					{loading
+						? ""
+						: services[0].map((element) => (
+								<>
+									{showDetail && isMobile ? (
+										<div className={s.min_title} onClick={() => setShowDetail(false)}>
+											{element.title} <span>+</span>
+										</div>
+									) : (
+										<div className={s.container_card}>
+											<div className={s.news_bookmark}></div>
+											<div className={s.news_title}>{element.title}</div>
+											<div className={s.news_content}>{element.content}</div>
+										</div>
+									)}
+								</>
+						  ))}
 				</div> */}
+            
             <div className={s.card_container}>
-				{loading?"":services[0].map((element) => (
-               <>{
-                  showDetail && isMobile
-                  ?
-                  <div className={s.min_title} onClick={()=>setShowDetail(false)}>{element.title} <span>+</span></div>
-                  :
-                  
-                  
-		
-                  <div className={s.container_card}>
-
-				<div className={s.news_bookmark}></div>
-				<div className={s.news_title}>{element.title}</div>
-				<div className={s.news_content}>{element.content}</div>
-	
-			
-		</div>
-
-
+					{loading
+						? ""
+						: 
+                   services[0].map((element) => (
+								<>
+									{showDetail && isMobile ? 
+                              <Collapse className={s.collapse_container}>
+                                 <Panel  className={s.min_title} header={element.title} key={element.id}>
+										   {/* <div className={s.min_title} onClick={() => setShowDetail(false)}>
+											   {element.title} <span>+</span>
+										   </div> */}
+                                    <div className={s.container_card}>
+										      	{/* <div className={s.news_bookmark}></div>
+										      	<div className={s.news_title}>{element.title}</div> */}
+										      	<div className={s.news_content}>{element.content}</div>
+										      </div>
+                                 </Panel>
+                              </Collapse>
+									 : 
+					
+                            <Collapse  >
+                                 <Panel className={s.min_title} header={element.title} key={element.id}>
+										   {/* <div className={s.min_title} onClick={() => setShowDetail(false)}>
+											   {element.title} <span>+</span>
+										   </div> */}
+                                    <div className={s.container_card}>
+										      	<div className={s.news_bookmark}></div>
+										      	<div className={s.news_title}>{element.title}</div>
+										      	<div className={s.news_content}>{element.content}</div>
+										      </div>
+                                 </Panel>
+                              </Collapse>
+									}
+								</>
+						  ))
+                 
                }
-
-               </>
-				))}
-            </div>
+				</div>
 			</div>
-         <ContactPeek />
+
+			<ContactPeek />
 			<Footer />
 		</>
 	);
