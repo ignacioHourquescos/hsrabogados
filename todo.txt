@@ -184,12 +184,12 @@ DURACELL
 Debieran encontrar los logos de las cinco empresas en google. Cualquier cosa me avisan y les paso
 
 /////////////////////////////////////////////////////////////////////////
-1. Aclarar header negro y achicar footer conforme lo hablado. 
-2. Nosotros: Incluir punto al final de la frase de sección "NOSOTROS"
+🟢1. Aclarar header negro y achicar footer conforme lo hablado. 
+🟢2. Nosotros: Incluir punto al final de la frase de sección "NOSOTROS"
 🟢3. Dentro de la sección "Socios" el "mas detalle" no funciona
 4. Novedades: Siempre que en los textos o titulares se mencione HSR Abogados o Hang Kuchen, Sporleder & Rodríguez Morales ABogados deben estar en negrita
 5. En sección "La Firma": centrar texto
-6. En sección Novedades: Agrandar los textos de las tarjetas para que no se pierda el texto (en versión desktop)
+🟢6. En sección Novedades: Agrandar los textos de las tarjetas para que no se pierda el texto (en versión desktop)
 7. En sección novedades no numerarlas. Es decir, que no figure “asesoramiento 2” solo “asesoramiento” en cada tarjeta
 8. En la versión celular, en la sección áreas de práctica, cuando se agranda una de las tarjetas se agrandan todo el resto. Debiera ser individual
 9. En la versión en inglés los comentarios están en castellano. También el “más detalles” está en castellano
