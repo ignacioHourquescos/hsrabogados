@@ -31,7 +31,7 @@
   position: absolute;
   content: "";
   height: 8px;
-  bottom: 0px;
+  bottom: -3px;
   margin: 0;
   left: 0;
   width: 70px;
@@ -65,7 +65,7 @@
 }
 @media only screen and (min-width : 801px) {
   .container {
-    width: 35%;
+    width: 30%;
     margin: 3%;
     height: 45vh;
   }
@@ -88,12 +88,12 @@
   top: 2rem;
   left: 8%;
   font-family: "Raleway", sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   text-transform: uppercase;
 }
 @media only screen and (min-width : 801px) {
   .container .news_title {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 }
 .container .news_content {
@@ -108,7 +108,7 @@
 }
 @media only screen and (min-width : 801px) {
   .container .news_content {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }
 .container .news_detail {
