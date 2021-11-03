@@ -57,17 +57,17 @@ const Form = ({text}) => {
                       <div className={ss.link}><Link href="/areasDePractica">   Areas de Practica</Link></div>
                       <div className={ss.link}><Link href="/socios">            Socios</Link></div>
                       <div className={ss.link}><Link href="/novedades">         Novedades</Link></div>
-                      <div className={ss.link}><Link href="/carreras">          Carreras</Link></div>
+                      <div className={ss.link}><Link href="/carreras">          Carrera</Link></div>
                       <div className={ss.link}><Link href="/contacto">          Contacto</Link></div>
                   </div>
                   :
                   <div className={ss.container}>
                       {/* <div className={ss.link}><Link href="/">                  Institutional</Link></div> */}
-                      <div className={ss.link}><Link href="/institutional">     The Firm</Link></div>
+                      <div className={ss.link}><Link href="/institucional">     The Firm</Link></div>
                       <div className={ss.link}><Link href="/areasDePractica">   Practice Areas</Link></div>
                       <div className={ss.link}><Link href="/socios">            Partners</Link></div>
                       <div className={ss.link}><Link href="/novedades">         News</Link></div>
-                      <div className={ss.link}><Link href="/carreras">          Carrers</Link></div>
+                      <div className={ss.link}><Link href="/carreras">          Carrer</Link></div>
                       <div className={ss.link}><Link href="/contacto">          Contact</Link></div>
                       </div>
                 } 

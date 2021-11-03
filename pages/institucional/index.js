@@ -23,7 +23,7 @@ const Block = () => {
 				<meta property="og:image" content="/logo.jpg" />
 			</Head>
 
-         <HeaderSub titulo="INSTITUCIONAL" img="ofi3.jpg" />
+         <HeaderSub titulo={lang == "ESP" ? "INSTITUCIONAL" : "THE FIRM"} img="ofi3.jpg" />
 
          <div className={s.general_container}>
 
