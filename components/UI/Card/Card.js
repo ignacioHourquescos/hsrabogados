@@ -3,9 +3,11 @@ import ScrollAnimation from "react-animate-on-scroll";
 import "animate.css/animate.min.css";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import useAppContext from '../../../Context/UseAppContext';
 
 const Card = ({ title, content, masDetalle, slug, noticias, trim }) => {
 	const router = useRouter();
+	const { lang } = useAppContext();
 	const goToNoticia = () => {
 		const fullPath = `/novedades/${slug}`;
 		router.push(fullPath);
@@ -26,7 +28,7 @@ const Card = ({ title, content, masDetalle, slug, noticias, trim }) => {
 				<div className={s.news_content}>{trim?trimmedString.substr(0, Math.min(trimmedString.length, trimmedString.lastIndexOf(" "))):content}...</div>
 				{masDetalle ? (
 					<div className={s.news_detail} onClick={goToNoticia}>
-						MAS DETALLE
+						{lang=="ESP"? 'MAS DETALLE' : 'SEE MORE'}
 					</div>
 				) : (
 					""

@@ -37,7 +37,7 @@ const Carrousel = () => {
                      different practice areas. They are very professional, proactive and \
                      committed."
                   }
-                     <p style={{fontWeight:"bold", marginTop: "1rem", fontStyle:"normal"}}>Presidente</p>
+                     <p style={{fontWeight:"bold", marginTop: "1rem", fontStyle:"normal"}}></p>
                      <span>{duracell}</span>
 						</p>
 					</div>
@@ -55,11 +55,12 @@ const Carrousel = () => {
                 
                   }
   
-                     <p style={{fontWeight:"bold", marginTop:"1rem", fontStyle:"normal"}}>Director General</p>
+                     
                      <p style={{fontWeight:"bold", marginTop:"1rem", fontStyle:"normal"}}>
                         <Image src="/CMC.png" width="150px" height="45px"></Image>
                      </p>
-						</p>
+                     </p>
+						
 					</div>
 
                <div className={ss.contentStyle}>
@@ -69,11 +70,11 @@ const Carrousel = () => {
                      "HSR Team proposes us practical and innovative solutions in different areas of practices" 
                 
                   }
-                     <p style={{fontWeight:"bold", marginTop:"1rem", fontStyle:"normal"}}></p>
+                     
                      <p style={{fontWeight:"bold", marginTop:"1rem", fontStyle:"normal"}}>
                         <Image src="/hidraco.png" width="150px" height="45px"></Image>
                      </p>
-						</p>
+                     </p>
 
 					</div>
 
