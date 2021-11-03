@@ -41,7 +41,7 @@ const About = () => {
 						</a>
                <div className={s.newsletter_container}>
                <input className={s.newsletter} type="email" name="user_email" placeholder={lang=="ESP"?"Ingrese su mail":"Enter your email"} />
-               <span>{lang=="ESP"?"Subscribimre":"Subscribe"}</span>
+               <span>{lang=="ESP"?"Subscribirme":"Subscribe"}</span>
                </div>
 
 			
