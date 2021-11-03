@@ -190,13 +190,13 @@ Debieran encontrar los logos de las cinco empresas en google. Cualquier cosa me 
 🟡4. Novedades: Siempre que en los textos o titulares se mencione HSR Abogados o Hang Kuchen, Sporleder & Rodríguez Morales ABogados deben estar en negrita
 🟢5. En sección "La Firma": centrar texto
 🟢6. En sección Novedades: Agrandar los textos de las tarjetas para que no se pierda el texto (en versión desktop)
-7. En sección novedades no numerarlas. Es decir, que no figure “asesoramiento 2” solo “asesoramiento” en cada tarjeta
+🟢7. En sección novedades no numerarlas. Es decir, que no figure “asesoramiento 2” solo “asesoramiento” en cada tarjeta
 🟢8. En la versión celular, en la sección áreas de práctica, cuando se agranda una de las tarjetas se agrandan todo el resto. Debiera ser individual
-9. En la versión en inglés los comentarios están en castellano. También el “más detalles” está en castellano
+🟢9. En la versión en inglés los comentarios están en castellano. 🟢También el “más detalles” está en castellano
 🟢10. Seria carrera y Carrer
 🟢11. La firma / institucional 
 12. newsletter algo en mayuscula
-13. Fotos
+🟢13. Fotos socios
 
 🟢13. agrandar teccto cards mobile
 🟢14. contentful

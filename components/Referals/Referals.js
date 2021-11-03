@@ -37,7 +37,8 @@ const Carrousel = () => {
                      different practice areas. They are very professional, proactive and \
                      committed."
                   }
-                     <p style={{fontWeight:"bold", marginTop: "1rem", fontStyle:"normal"}}> Presidente <span>{duracell}</span></p>
+                     <p style={{fontWeight:"bold", marginTop: "1rem", fontStyle:"normal"}}></p>
+                     <span>{duracell}</span>
 						</p>
 					</div>
 		
@@ -54,8 +55,12 @@ const Carrousel = () => {
                 
                   }
   
-                     <p style={{fontWeight:"bold", marginTop:"1rem", fontStyle:"normal"}}>Director General - CMC di Ravnna</p>
-						</p>
+                     
+                     <p style={{fontWeight:"bold", marginTop:"1rem", fontStyle:"normal"}}>
+                        <Image src="/CMC.png" width="150px" height="45px"></Image>
+                     </p>
+                     </p>
+						
 					</div>
 
                <div className={ss.contentStyle}>
@@ -65,8 +70,11 @@ const Carrousel = () => {
                      "HSR Team proposes us practical and innovative solutions in different areas of practices" 
                 
                   }
-                     <p style={{fontWeight:"bold", marginTop:"1rem", fontStyle:"normal"}}>Director General - CMC di Ravnna</p>
-						</p>
+                     
+                     <p style={{fontWeight:"bold", marginTop:"1rem", fontStyle:"normal"}}>
+                        <Image src="/hidraco.png" width="150px" height="45px"></Image>
+                     </p>
+                     </p>
 
 					</div>
 
@@ -81,15 +89,7 @@ const Carrousel = () => {
 						</p>
 					</div>
 
-               <div className={ss.contentStyle}>
-						<p className={ss.referencia}>
-                  {lang=="ESP"? "La confianza generada nos permite delegarle asuntos muy variados y complejos"
-                     :"The generated trust allow us to delegate them many different and complex issues"}
-                     <p style={{fontWeight:"bold", marginTop:"1rem", fontStyle:"normal"}}>
-                        <Image src="/columbia.png" width="150px" height="45px"></Image>
-                     </p>
-						</p>
-					</div>
+               
 			
                <div className={ss.contentStyle}>
 						<p className={ss.referencia}>
