@@ -19,7 +19,9 @@ export async function getStaticProps() {
 	return {
 		props: {
 			noticias: res.items
-		}
+		},
+      revalidate:10
+
 	}
 }
 
