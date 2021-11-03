@@ -22,7 +22,7 @@ export async function getStaticProps() {
 		props: {
 			noticias: res.items,
 		},
-      revalidate:10
+      revalidate:1
 	}
 }
  

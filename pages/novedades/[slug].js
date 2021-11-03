@@ -54,10 +54,10 @@ const Novedades = ({ noticia }) => {
 				<div className={ss.content}>{documentToReactComponents(noticia.fields.cuerpo)}</div>
             <div className={ss.share_container}>
             <span className={ss.share} >Compartir via:</span>
-            <LinkedinShareButton style={{marginLeft:"0.7rem"}}  url="https://www.lanacion.com">
+            <LinkedinShareButton style={{marginLeft:"0.7rem"}}  url={`https://hsrabogados.vercel.app/novedades/${slug}`}>
                <LinkedinIcon size={32} round={true} />
             </LinkedinShareButton>
-            <WhatsappShareButton style={{marginLeft:"0.7rem"}} url="https://www.lanacion.com">
+            <WhatsappShareButton style={{marginLeft:"0.7rem"}} url={`https://hsrabogados.vercel.app/novedades/${slug}`}>
                <WhatsappIcon size={32} round={true} />
             </WhatsappShareButton>
             </div>
@@ -100,8 +100,9 @@ export async function getStaticProps({ params }) {
 	});
 	return {
 		props: { noticia: items[0] },
-      revalidate:10
-	};
+      revalidate:1
+	}
+   
 }
 
 

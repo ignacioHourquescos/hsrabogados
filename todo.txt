@@ -199,9 +199,9 @@ Debieran encontrar los logos de las cinco empresas en google. Cualquier cosa me 
 13. Fotos
 
 13. agrandar teccto cards mobile
-14. contentful
+🟢14. contentful
 15. CV - que se mande como contacto
+16. En la sección novedades no es posible compartir las noticias vía redes (ej al querer hacerlo vía WhatsApp te lleva al sitio del diario la nación)
 
-
-16. Brochure
-17. Newsletter que advances
+17. Brochure
+18. Newsletter que advances
