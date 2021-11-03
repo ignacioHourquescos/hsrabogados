@@ -12,7 +12,7 @@ import Image from 'next/image'
 
 const Carrousel = () => {
    const { lang } = useAppContext();
-	return (<>
+	return (<>2T
 		<div className={ss.container}>
       <div className={ss.overlay}>
       <Image  src='/ofi3.jpg'alt="socio" layout="fill"></Image>
@@ -28,25 +28,78 @@ const Carrousel = () => {
 
          <div className={ss.contentStyle}> 
 						<p className={ss.referencia}>
-                  El equipo nos propone soluciones practicas e innovadoras en sus
-							distintas areas de practico. Son muy profesionales, proactivos y
-							comprometidos. La confianza generada nos permite delegarle asuntos
-							muy variados y complejos.
+                  {lang=="ESP"? "El equipo nos propone soluciones practicas e innovadoras en sus\
+							distintas areas de practico. Son muy profesionales, proactivos y\
+							comprometidos. La confianza generada nos permite delegarle asuntos\
+							muy variados y complejos."
+                     :
+                     "The team proposes practical and innovative solutions in their \
+                     different practice areas. They are very professional, proactive and \
+                     committed."
+                  }
                      <p style={{fontWeight:"bold", marginTop: "1rem", fontStyle:"normal"}}> Presidente <span>{duracell}</span></p>
 						</p>
 					</div>
 		
 					<div className={ss.contentStyle}>
 						<p className={ss.referencia}>
-                Se caracterizan por anticiparse a los hechos y mostrar un alto
-							compromiso en las necesidades de nuestro día a día. Su
-							conocimiento del negocio también facilita nuestro trabajo en un
-							mercado tan cambiante y desafiante como el argentino.
+                  {lang=="ESP"? "Se caracterizan por anticiparse a los hechos y mostrar un alto\
+							compromiso en las necesidades de nuestro día a día. Su\
+							conocimiento del negocio también facilita nuestro trabajo en un\
+							mercado tan cambiante y desafiante como el argentino."
+                     :
+                     "They are characterized by anticipating the facts and showing a high \
+                     commitment to the needs of our day to day. Their know how\
+                   facilitates our work in the argentenean market with the implications of its intrinsic complexity." 
+                
+                  }
+  
                      <p style={{fontWeight:"bold", marginTop:"1rem", fontStyle:"normal"}}>Director General - CMC di Ravnna</p>
 						</p>
 					</div>
 
+               <div className={ss.contentStyle}>
+						<p className={ss.referencia}>
+                  {lang=="ESP"? "El equipo de HSR nos propone soluciones prácticas e innovadoras en sus distintas áreas de práctica"
+                     :
+                     "HSR Team proposes us practical and innovative solutions in different areas of practices" 
+                
+                  }
+                     <p style={{fontWeight:"bold", marginTop:"1rem", fontStyle:"normal"}}>Director General - CMC di Ravnna</p>
+						</p>
+
+					</div>
+
+
+               <div className={ss.contentStyle}>
+						<p className={ss.referencia}>
+                  {lang=="ESP"? "Son muy profesionales, proactivos y comprometidos"
+                     :"They are professional, proactive and committed"}
+                     <p style={{fontWeight:"bold", marginTop:"1rem", fontStyle:"normal"}}>
+                        <Image src="/aversa.png" width="150px" height="45px"></Image>
+                     </p>
+						</p>
+					</div>
+
+               <div className={ss.contentStyle}>
+						<p className={ss.referencia}>
+                  {lang=="ESP"? "La confianza generada nos permite delegarle asuntos muy variados y complejos"
+                     :"The generated trust allow us to delegate them many different and complex issues"}
+                     <p style={{fontWeight:"bold", marginTop:"1rem", fontStyle:"normal"}}>
+                        <Image src="/columbia.png" width="150px" height="45px"></Image>
+                     </p>
+						</p>
+					</div>
 			
+               <div className={ss.contentStyle}>
+						<p className={ss.referencia}>
+                  {lang=="ESP"? "La confianza generada nos permite delegarle asuntos muy variados y complejos"
+                     :"The generated trust allow us to delegate them many different and complex issues"}
+                     <p style={{fontWeight:"bold", marginTop:"1rem", fontStyle:"normal"}}>
+                        <Image src="/columbia.png" width="150px" height="45px"></Image>
+                     </p>
+						</p>
+					</div>
 
 			</Carousel>
          </div>

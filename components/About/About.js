@@ -60,14 +60,14 @@ const backgorund = (
 const esp = [
 	"Nosotros",
 	"Desarrollamos relaciones de largo plazo con nuestros clientes,\
-   prestando un asesoramiento jurídico ágil y comprometido",
+   prestando un asesoramiento jurídico ágil y comprometido.",
 	"Socios",
 	"Areas de Práctica",
 ];
 
 const eng = [
 	"About Us",
-	"We develop long-term relationships with our clients, providing agile and committed legal services ",
+	"We develop long-term relationships with our clients, providing agile and committed legal services. ",
 	"Partners",
 	"Practice Areas",
 ];

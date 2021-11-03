@@ -162,3 +162,46 @@ foto de socio). A su vez, en la versión web nos gustaría que un socio aparezca
 
 
 
+ ●	 “El equipo de HSR nos propone soluciones prácticas e innovadoras en sus distintas áreas de práctica”
+●	“HSR Team proposes us practical and innovative solutions in different areas of practices”
+HIDRACO
+
+●	“Son muy profesionales, proactivos y comprometidos”
+●	“They are professional, proactive and committed”
+HELADERIAS AVERSA
+
+●	“La confianza generada nos permite delegarle asuntos muy variados y complejos”
+●	“The generated trust allow us to delegate them many different and complex issues”
+BANCO COLUMBIA
+
+●	“Se caracterizan por anticiparse a los hechos y mostrar un alto compromiso con las necesidades de nuestro día a día”
+●	“They are characterized by anticipating the facts and show high commitment in the needs of our day to day”
+CMC DI RAVENNA
+
+●	“Su conocimiento del negocio también facilita nuestro trabajo como empresa internacional, en un mercado tan cambiante como el argentino”
+●	“Their knowledge of the business also facilitates our work in a market as changing and challenging as Argentina”.
+DURACELL
+Debieran encontrar los logos de las cinco empresas en google. Cualquier cosa me avisan y les paso
+
+🟢1. Aclarar header negro y achicar footer conforme lo hablado.
+🟢2. Nosotros: Incluir punto al final de la frase de sección "NOSOTROS"
+🟢3. Dentro de la sección "Socios" el "mas detalle" no funciona
+4. Novedades: Siempre que en los textos o titulares se mencione HSR Abogados o Hang Kuchen, Sporleder & Rodríguez Morales ABogados deben estar en negrita
+5. En sección "La Firma": centrar texto
+6. En sección Novedades: Agrandar los textos de las tarjetas para que no se pierda el texto (en versión desktop)
+7. En sección novedades no numerarlas. Es decir, que no figure “asesoramiento 2” solo “asesoramiento” en cada tarjeta
+8. En la versión celular, en la sección áreas de práctica, cuando se agranda una de las tarjetas se agrandan todo el resto. Debiera ser individual
+9. En la versión en inglés los comentarios están en castellano. También el “más detalles” está en castellano
+Seria carrera y Carrer
+
+La firma / institucional 
+
+newsletter algo en mayuscula
+
+agrandar teccto cards mobile
+
+navbar no tan negro
+
+lo cambiamos
+
+testmioninos - Di ravenna
