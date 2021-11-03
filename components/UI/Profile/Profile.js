@@ -4,11 +4,11 @@ import "animate.css/animate.min.css";
 import Link from "next/link";
 import { useRouter } from 'next/router';
 import Image from 'next/image'
-
+import useAppContext from "../../../Context/UseAppContext";
 const Profile = ({name, lastname, bio, img}) => {
 
    const router = useRouter();
-
+   const {lang} = useAppContext();
    const pushPartner = () => {  
       const fullPath = `/socios/${lastname}`;
       router.push(fullPath);
